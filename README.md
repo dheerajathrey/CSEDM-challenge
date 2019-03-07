@@ -1,1 +1,1 @@
-# prutor-challenge
+# CSEDM-challenge
