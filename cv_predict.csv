@@ -1,0 +1,1783 @@
+Pcorrectforproblem,Pmedian,p_prior_correct,p_prior_completed,prior_attempts,pProblemSemanticError,Prob_synt,pSubjectSyntaxErrors,pSubjectSemanticErrors,Correct,StartOrder,ProblemID,Code,prediction,Fold
+0.9661016949152542,1.0,0.5,0.5,0,0.01694915254237288,0.01694915254237288,0.3333333333333333,0.3333333333333333,True,1939,doubleX,"def doubleX(x):
+    return x * 2",True,0
+0.7727272727272727,1.0,1.0,1.0,1,0.09090909090909091,0.13636363636363635,0.0,0.0,False,2884,backwardsCombine,"def backwardsCombine(s1, s2):
+	return [s2] + [s1]",True,0
+0.4594594594594595,1.0,0.3333333333333333,0.3333333333333333,3,0.40540540540540543,0.13513513513513514,0.3333333333333333,0.3333333333333333,True,1970,findRoot,"import math
+def findRoot(a, b, c):
+    root1 = ((-1 * b) + math.sqrt(b ** 2 - (4 * a * c))) / (2 * a)
+    root2 = ((-1 * b) - math.sqrt(b ** 2 - (4 * a * c))) / (2 * a)
+    if root1 >= root2:
+        return root1
+    else:
+        return root2\",True,0
+0.38,1.0,0.5,0.5,4,0.54,0.08,0.25,0.25,False,1941,convertToDegrees,"import math
+def convertToDegrees(x):
+    return x.degrees",False,0
+0.5303030303030303,1.0,0.4,0.6,5,0.2878787878787879,0.18181818181818182,0.2,0.4,True,1938,helloWorld,"def helloWorld():
+    phrase = 'Hello World!'
+    return phrase",True,0
+0.8780487804878049,1.0,0.5,0.6666666666666666,6,0.0975609756097561,0.024390243902439025,0.16666666666666666,0.3333333333333333,True,1975,intToFloat,"def intToFloat(x):
+    return x / 1",True,0
+0.125,3.0,0.5714285714285714,0.7142857142857143,7,0.5,0.375,0.14285714285714285,0.2857142857142857,False,1945,isPunctuation,"import string
+def isPunctuation(character):
+    if character == string.punctuation:
+        return True
+    else:
+        return False",False,0
+0.7619047619047619,1.0,0.5,0.75,8,0.16666666666666666,0.07142857142857142,0.125,0.375,False,1978,leftoverCandy,"def leftoverCandy(candy_bars, friends):
+	return candy_bars // friends",True,0
+0.8867924528301887,1.0,0.4444444444444444,0.7777777777777778,9,0.07547169811320754,0.03773584905660377,0.1111111111111111,0.4444444444444444,True,1940,raiseToPower,"def raiseToPower(x, y):
+    return x ** y",True,0
+0.38,1.0,0.75,0.75,4,0.54,0.08,0.3333333333333333,0.3333333333333333,False,2410,convertToDegrees,,False,0
+0.8867924528301887,1.0,1.0,1.0,1,0.07547169811320754,0.03773584905660377,0.5,0.5,True,2408,raiseToPower,"def raiseToPower(x, y):
+    return x ** y",True,0
+0.5303030303030303,1.0,0.5,0.5,0,0.2878787878787879,0.18181818181818182,0.3333333333333333,0.3333333333333333,True,2406,helloWorld,"def helloWorld():
+    return 'Hello World!'",False,0
+0.9661016949152542,1.0,1.0,1.0,2,0.01694915254237288,0.01694915254237288,0.25,0.25,True,2407,doubleX,"def doubleX(x):
+    return x * 2",True,0
+0.5303030303030303,1.0,0.5,0.5,0,0.2878787878787879,0.18181818181818182,0.3333333333333333,0.3333333333333333,False,1354,helloWorld,"def helloWorld():
+    print('Hello', ' ','World')
+",False,0
+0.5303030303030303,1.0,0.5,0.5,0,0.2878787878787879,0.18181818181818182,0.3333333333333333,0.3333333333333333,True,77,helloWorld,"def helloWorld():
+    return 'Hello World!'",False,0
+0.9661016949152542,1.0,1.0,1.0,1,0.01694915254237288,0.01694915254237288,0.0,0.0,True,78,doubleX,"def doubleX(x):
+    return x*2",True,0
+0.7619047619047619,1.0,0.375,0.875,8,0.16666666666666666,0.07142857142857142,0.3333333333333333,0.3333333333333333,True,1591,leftoverCandy,"def leftoverCandy(candyBars, friends):
+	return candyBars % friends",True,0
+0.8867924528301887,1.0,0.5384615384615384,0.9230769230769231,13,0.07547169811320754,0.03773584905660377,0.0,0.0,True,1587,raiseToPower,"def raiseToPower(x, y):
+    return x**y",True,0
+0.9661016949152542,1.0,0.5,0.9166666666666666,12,0.01694915254237288,0.01694915254237288,0.0,0.0,True,1584,doubleX,"def doubleX(x):
+    return 2*x",True,0
+0.38,1.0,0.5,0.9,10,0.54,0.08,0.0,0.0,True,1588,convertToDegrees,"import math
+
+def convertToDegrees(x):
+    return math.degrees(x)",False,0
+0.8780487804878049,1.0,0.4444444444444444,0.8888888888888888,9,0.0975609756097561,0.024390243902439025,0.0,0.0,True,1590,intToFloat,"def intToFloat(x):
+	return float(x)",True,0
+0.5303030303030303,1.0,0.5454545454545454,0.9090909090909091,11,0.2878787878787879,0.18181818181818182,0.16666666666666666,0.0,False,1576,helloWorld,print('Hello World!'),False,0
+0.7241379310344828,1.0,0.4,0.8,5,0.06896551724137931,0.20689655172413793,0.14285714285714285,0.14285714285714285,False,1610,overNineThousand,"def overNineThousand(powerLevel):
+	if powerLevel > 9000:
+	    return True\",True,0
+0.18181818181818182,3.0,0.5,1.0,4,0.4090909090909091,0.4090909090909091,0.125,0.25,False,1625,isEvenPositiveInt,"def isEvenPositiveInt(x):
+    if x % 2 == 0 and x > 0 and Type(x) == Type(int):
+	    return True",False,0
+0.21621621621621623,3.0,0.3333333333333333,1.0,3,0.7027027027027027,0.08108108108108109,0.1111111111111111,0.3333333333333333,True,1592,howManyEggCartons,"import math
+
+def howManyEggCartons(eggs):
+	return math.ceil(eggs / 12)",False,0
+0.41379310344827586,2.0,0.5,1.0,2,0.4482758620689655,0.13793103448275862,0.1,0.3,False,1612,hasTwoDigits,"def hasTwoDigits(x):
+    if x >= 10:
+	    return True",True,0
+0.4594594594594595,1.0,0.3333333333333333,0.8333333333333334,6,0.40540540540540543,0.13513513513513514,0.09090909090909091,0.36363636363636365,True,1589,findRoot,"def findRoot(a, b, c):
+    t = ((-b + ((b**2 - 4*a*c)**.5)) / (2*a))
+    y = ((-b - ((b**2 - 4*a*c)**.5)) / (2*a))
+    if y > t:
+        return y
+    else: return t",False,0
+0.2962962962962963,3.0,0.0,1.0,1,0.37037037037037035,0.3333333333333333,0.08333333333333333,0.3333333333333333,True,1624,canDrinkAlcohol,"def canDrinkAlcohol(age, isDriving):
+    if age < 21:
+        return False
+    elif age >= 21 and isDriving :
+        return False
+    else:
+        return True",False,0
+0.17142857142857143,3.0,0.5,0.5,0,0.6285714285714286,0.2,0.07692307692307693,0.3076923076923077,False,1593,kthDigit,"def kthDigit(x, k):
+	return (x // 10**k) % 10",False,0
+0.9661016949152542,1.0,0.42857142857142855,0.7142857142857143,7,0.01694915254237288,0.01694915254237288,0.3333333333333333,0.3333333333333333,True,92,doubleX,"def doubleX(x):
+    return (x *2)",True,0
+0.8867924528301887,1.0,0.3333333333333333,0.6666666666666666,6,0.07547169811320754,0.03773584905660377,0.0,0.0,True,93,raiseToPower,"def raiseToPower(x,y):
+    return (x **y)
+",True,0
+0.4594594594594595,1.0,0.5,1.0,4,0.40540540540540543,0.13513513513513514,0.3333333333333333,0.0,False,96,findRoot,"def findRoot(a,b,c):
+    
+    additionTotal = ( -b + (((b **2) - 4 *a *c) **(0.5)))/( 2 *a)
+    
+    subtractTotal = ( -b - (((b **2) - 4 *a *c) **(0.5)))/( 2 *a)
+    
+    if (additionTotal >= subtractTotal):
+        return additionTotal
+",True,0
+0.7619047619047619,1.0,0.0,1.0,2,0.16666666666666666,0.07142857142857142,0.25,0.25,True,100,leftoverCandy,"def leftoverCandy(candyBars, friends):
+	return (candyBars % friends)",True,0
+0.5303030303030303,1.0,0.5,0.5,0,0.2878787878787879,0.18181818181818182,0.3333333333333333,0.16666666666666666,False,87,helloWorld,"print ('Hello World!')
+",True,0
+0.8780487804878049,1.0,0.3333333333333333,1.0,3,0.0975609756097561,0.024390243902439025,0.2857142857142857,0.2857142857142857,True,97,intToFloat,"def intToFloat(x):
+	return (x / 1.0)",True,0
+0.8780487804878049,1.0,0.3,0.9,10,0.0975609756097561,0.024390243902439025,0.3333333333333333,0.3333333333333333,True,881,intToFloat,"def intToFloat(x):
+	return(float(x))",True,0
+0.5303030303030303,1.0,0.3333333333333333,0.8666666666666667,15,0.2878787878787879,0.18181818181818182,0.0,0.0,False,861,helloWorld,print('Hello World!'),False,0
+0.38095238095238093,2.0,0.3125,0.875,16,0.38095238095238093,0.23809523809523808,0.0,0.5,True,2151,firstAndLast,"def firstAndLast(s):
+	firstLetter = s[0]
+	lastLetter = s[-1]
+	combined = firstLetter + lastLetter
+	return combined",False,0
+0.3333333333333333,3.0,0.2857142857142857,0.8571428571428571,14,0.42857142857142855,0.23809523809523808,0.0,0.3333333333333333,True,2234,singlePigLatin,"def singlePigLatin(s):
+	s = s[1:] + s[0] + 'ay'
+	return s",False,0
+0.4594594594594595,1.0,0.36363636363636365,0.9090909090909091,11,0.40540540540540543,0.13513513513513514,0.3333333333333333,0.16666666666666666,False,880,findRoot,"import math
+def findRoot(a, b, c):
+    numPlus = -b+(b**2-(4*a*c))**.5
+    numMinus = -b-(b**2-(4*a*c))**.5
+    denom = 2*a
+    xPlus = numPlus/denom
+    xMinus = numMinus/denom
+    if (xPlus>xMinus):
+        return xPlus
+    else:
+        retu",False,0
+0.7619047619047619,1.0,0.2222222222222222,0.8888888888888888,9,0.16666666666666666,0.07142857142857142,0.2857142857142857,0.2857142857142857,True,882,leftoverCandy,"def leftoverCandy(candyBars, friends):
+	return(candyBars%friends)",True,0
+0.2962962962962963,3.0,0.0,1.0,1,0.37037037037037035,0.3333333333333333,0.25,0.25,True,1644,canDrinkAlcohol,"def canDrinkAlcohol(age, isDriving):
+	if age >=21 and isDriving == False:
+	    return True
+	else: return False",True,0
+0.17142857142857143,3.0,0.2857142857142857,0.8571428571428571,7,0.6285714285714286,0.2,0.2222222222222222,0.2222222222222222,False,884,kthDigit,"def kthDigit(x, k):
+	kthDigLeft = x%(10**(k+1))
+	kthDigRight = kthDigLeft//(10**k)
+	return kthDigRight",False,0
+0.7241379310344828,1.0,0.5,1.0,4,0.06896551724137931,0.20689655172413793,0.3333333333333333,0.25,False,1640,overNineThousand,"def overNineThousand(powerLevel):
+	if powerLevel <= 9000:
+	    return False
+	else: True",True,0
+0.41379310344827586,2.0,0.6666666666666666,1.0,3,0.4482758620689655,0.13793103448275862,0.3076923076923077,0.3076923076923077,False,1642,hasTwoDigits,"def hasTwoDigits(x):
+	if x>9 and x//100 == 0:
+	    return True",True,0
+0.7727272727272727,1.0,0.5,1.0,2,0.09090909090909091,0.13636363636363635,0.2857142857142857,0.35714285714285715,True,2150,backwardsCombine,"def backwardsCombine(s1, s2):
+	combined = s2 + s1
+	return combined",True,0
+0.21621621621621623,3.0,0.35294117647058826,0.8823529411764706,17,0.7027027027027027,0.08108108108108109,0.3125,0.3125,True,883,howManyEggCartons,"def howManyEggCartons(eggs):
+	if (eggs%12)==0:
+	    return eggs//12
+	else:    
+	    return((eggs//12)+1)",False,0
+0.125,3.0,0.3888888888888889,0.8888888888888888,18,0.5,0.375,0.3333333333333333,0.2777777777777778,False,2235,isPunctuation,"import string
+
+def isPunctuation(s):
+	if s.punctuation() == True:
+	    return True",False,0
+0.14814814814814814,2.0,0.5,0.5,0,0.5925925925925926,0.25925925925925924,0.3333333333333333,0.3333333333333333,True,1373,nearestBusStop,"def nearestBusStop(street):
+    a = street % 8
+    if a > 4:
+        return street + (8 - a)
+    else:
+	    return street - a",False,1
+0.75,1.0,1.0,1.0,1,0.15,0.1,0.0,0.0,True,1374,backwardsCombine,"def backwardsCombine(s1, s2):
+	return s2 + s1\",False,1
+0.3888888888888889,2.0,0.5,0.6428571428571429,14,0.3888888888888889,0.2222222222222222,0.3333333333333333,0.3333333333333333,True,2578,singlePigLatin,"def singlePigLatin(s):
+	return s[1:] + s[0] + 'ay'",False,1
+0.925,1.0,0.46153846153846156,0.6153846153846154,13,0.075,0.0,0.0,0.0,True,2542,intToFloat,"def intToFloat(x):
+    return x/1",True,1
+0.4444444444444444,2.0,0.45454545454545453,0.5454545454545454,11,0.3333333333333333,0.2222222222222222,0.3333333333333333,0.0,True,2573,firstAndLast,"def firstAndLast(s):
+	return s[0] + s[len(s)-1]",True,1
+0.14814814814814814,2.0,0.5,0.6,10,0.5925925925925926,0.25925925925925924,0.25,0.0,False,2555,nearestBusStop,"def nearestBusStop(street):
+	return street//8",False,1
+0.5223880597014925,1.0,0.625,0.625,8,0.3283582089552239,0.14925373134328357,0.2,0.2,False,2525,helloWorld,"def helloWorld():
+    print('Hello World')",True,1
+0.38461538461538464,2.0,0.7142857142857143,0.7142857142857143,7,0.5,0.11538461538461539,0.16666666666666666,0.3333333333333333,False,2583,hasTwoDigits,"def hasTwoDigits(x):
+	if len(x) ==2:
+	    return True
+	else:
+	    return False",False,1
+0.15625,3.0,0.5555555555555556,0.6666666666666666,9,0.65625,0.1875,0.14285714285714285,0.42857142857142855,False,2549,kthDigit,"def kthDigit(x, k):
+	return x[k]",False,1
+0.25,2.5,0.8,0.8,5,0.6111111111111112,0.1388888888888889,0.125,0.5,False,2544,howManyEggCartons,"def howManyEggCartons(eggs):
+	return eggs//12",False,1
+0.75,1.0,0.6666666666666666,0.6666666666666666,6,0.15,0.1,0.1111111111111111,0.5555555555555556,True,2569,backwardsCombine,"def backwardsCombine(s1, s2):
+	return s2 + s1",True,1
+0.7560975609756098,1.0,0.75,0.75,4,0.1951219512195122,0.04878048780487805,0.1,0.5,True,2545,leftoverCandy,"def leftoverCandy(candy_bars, friends):
+	return candy_bars%friends",True,1
+0.125,2.0,1.0,1.0,3,0.5416666666666666,0.3333333333333333,0.09090909090909091,0.45454545454545453,False,2537,isPunctuation,"def isPunctuation(string):
+    return string.punctuation",False,1
+0.95,1.0,1.0,1.0,2,0.016666666666666666,0.03333333333333333,0.08333333333333333,0.5,True,2530,doubleX,"def doubleX(x):
+    return x*2",True,1
+0.34,1.5,1.0,1.0,1,0.54,0.12,0.07692307692307693,0.46153846153846156,True,2535,convertToDegrees,"def convertToDegrees(x):
+    import math
+    return math.degrees(x)",True,1
+0.8679245283018868,1.0,0.5,0.5,0,0.07547169811320754,0.05660377358490566,0.07142857142857142,0.42857142857142855,True,2531,raiseToPower,"def raiseToPower(x, y):
+    return x**y",True,1
+0.7560975609756098,1.0,0.2222222222222222,0.7777777777777778,18,0.1951219512195122,0.04878048780487805,0.3333333333333333,0.3333333333333333,True,2210,leftoverCandy,"def leftoverCandy(candy_bars, friends):
+	return candy_bars % friends",False,1
+0.95,1.0,0.17647058823529413,0.7647058823529411,17,0.016666666666666666,0.03333333333333333,0.0,0.0,True,2147,doubleX,"def doubleX(x):
+    return x*2",True,1
+0.75,1.0,0.125,0.75,16,0.15,0.1,0.0,0.0,True,2227,backwardsCombine,"def backwardsCombine(s1, s2):
+	return s2+s1",True,1
+0.8679245283018868,1.0,0.06666666666666667,0.7333333333333333,15,0.07547169811320754,0.05660377358490566,0.0,0.0,True,2148,raiseToPower,"def raiseToPower(x,y):
+    return x**y",True,1
+0.5135135135135135,1.0,0.07692307692307693,0.8461538461538461,13,0.35135135135135137,0.13513513513513514,0.2,0.0,False,2166,findRoot,"import math 
+def findRoot(a,b,c):
+    x1 = (-b + math.sqrt(b**2 - (4*a*c))) / 2*a
+    x2 = (-b - math.sqrt(b**2 - (4*a*c))) / 2*a
+    if x1>x2:
+        return x1
+    else:
+        return x2",False,1
+0.4444444444444444,2.0,0.08333333333333333,0.8333333333333334,12,0.3333333333333333,0.2222222222222222,0.16666666666666666,0.16666666666666666,False,2224,firstAndLast,"def firstAndLast(s):
+	return s[0] == s[-1]",False,1
+0.25,2.5,0.09090909090909091,0.8181818181818182,11,0.6111111111111112,0.1388888888888889,0.14285714285714285,0.2857142857142857,False,2211,howManyEggCartons,"def howManyEggCartons(eggs):
+	return eggs -1 // 12 + 1",False,1
+0.7407407407407407,1.0,0.0,1.0,2,0.14814814814814814,0.1111111111111111,0.2222222222222222,0.3333333333333333,True,2880,overNineThousand,"def overNineThousand(power_level):
+	return power_level > 9000",True,1
+0.34,1.5,0.1111111111111111,0.8888888888888888,9,0.54,0.12,0.2727272727272727,0.2727272727272727,False,2154,convertToDegrees,"import math
+def convertToDegrees(x):
+    return x * 180\",False,1
+0.925,1.0,0.0,1.0,1,0.075,0.0,0.25,0.3333333333333333,False,2169,intToFloat,"def intToFloat(x):
+    return x//1",True,1
+0.3888888888888889,2.0,0.3333333333333333,1.0,3,0.3888888888888889,0.2222222222222222,0.23076923076923078,0.38461538461538464,False,2877,singlePigLatin,"def singlePigLatin(s):
+	return s[1:] + 's[0]' + 'ay'",False,1
+0.15625,3.0,0.5,0.5,0,0.65625,0.1875,0.21428571428571427,0.42857142857142855,False,2217,kthDigit,"def kthDigit(x, k):
+	return (x//10^(k-1))%10^k",False,1
+0.2,3.5,0.16666666666666666,1.0,6,0.4,0.4,0.25,0.4375,False,2929,isEvenPositiveInt,"def isEvenPositiveInt(x):
+	return x == int and x >= 0 and x % 2 == 0",False,1
+0.23809523809523808,7.0,0.14285714285714285,0.8571428571428571,7,0.42857142857142855,0.3333333333333333,0.23529411764705882,0.47058823529411764,False,2999,oneToN,"def oneToN(n):
+    for i in range(n+1):
+        s[i] = i
+        return s",False,1
+0.38461538461538464,2.0,0.25,1.0,4,0.5,0.11538461538461539,0.2222222222222222,0.5,False,2881,hasTwoDigits,"def hasTwoDigits(x):
+	return 10 < x < 100",False,1
+0.23809523809523808,7.0,0.09090909090909091,0.8181818181818182,11,0.42857142857142855,0.3333333333333333,0.3333333333333333,0.3333333333333333,False,2123,oneToN,"def oneToN(n):
+    return list(range(n+1))",False,1
+0.925,1.0,0.2777777777777778,0.8333333333333334,18,0.075,0.0,0.0,1.0,True,1963,intToFloat,"def intToFloat(x):
+    return x/1.0",True,1
+0.4444444444444444,2.0,0.29411764705882354,0.8235294117647058,17,0.3333333333333333,0.2222222222222222,0.0,0.5,False,2014,firstAndLast,"def firstAndLast(s):
+	return s[1] + s[len(s)]",True,1
+0.8679245283018868,1.0,0.25,0.8125,16,0.07547169811320754,0.05660377358490566,0.0,0.6666666666666666,True,1949,raiseToPower,"def raiseToPower(x,y):
+    return x ** y",True,1
+0.95,1.0,0.2,0.8,15,0.016666666666666666,0.03333333333333333,0.0,0.5,True,1948,doubleX,"def doubleX(x):
+    return x*2",True,1
+0.5223880597014925,1.0,0.14285714285714285,0.7857142857142857,14,0.3283582089552239,0.14925373134328357,0.0,0.4,True,1947,helloWorld,"def helloWorld():
+    return 'Hello World!'",True,1
+0.25,2.5,0.15384615384615385,0.8461538461538461,13,0.6111111111111112,0.1388888888888889,0.0,0.3333333333333333,False,1964,howManyEggCartons,"def howManyEggCartons(eggs):
+	return eggs//12",False,1
+0.7560975609756098,1.0,0.08333333333333333,0.8333333333333334,12,0.1951219512195122,0.04878048780487805,0.0,0.42857142857142855,True,1962,leftoverCandy,"def leftoverCandy(candy_bars, friends):
+	return candy_bars % friends",True,1
+0.38461538461538464,2.0,0.0,0.8,10,0.5,0.11538461538461539,0.0,0.375,True,2039,hasTwoDigits,"def hasTwoDigits(x):
+    if 1<= x//10 < 10:
+        return True
+    return False",False,1
+0.34,1.5,0.0,0.875,8,0.54,0.12,0.1,0.3,False,1950,convertToDegrees,"import math
+
+def convertToDegrees(x):
+    return x.degrees
+",True,1
+0.5135135135135135,1.0,0.0,0.8333333333333334,6,0.35135135135135137,0.13513513513513514,0.16666666666666666,0.3333333333333333,False,1960,findRoot,"def findRoot(a,b,c):
+    n = sqrt(b**2 - 4*a*c)
+    d = 2*a
+    x1 = (-b + n) / d
+    x2 = (-b - n) / d
+    return max(x1,x2)",False,1
+0.14814814814814814,2.0,0.0,1.0,5,0.5925925925925926,0.25925925925925924,0.15384615384615385,0.38461538461538464,False,1987,nearestBusStop,"def nearestBusStop(street):
+    if street <=4:
+        closest = 0
+    elif street >4 and street <=8:
+        closest = 8
+    elif street%8 <= 4:
+        closest = street//8
+    elif street%8 > 4 and street%8 <8:
+        closest = street // 8 +1\",False,1
+0.3888888888888889,2.0,0.0,1.0,3,0.3888888888888889,0.2222222222222222,0.2,0.4,False,2019,singlePigLatin,"def singlePigLatin(s):
+	return s + s[0] + 'ay' - s[0]",True,1
+0.34615384615384615,2.0,0.0,1.0,1,0.34615384615384615,0.3076923076923077,0.23529411764705882,0.4117647058823529,False,2046,canDrinkAlcohol,"def canDrinkAlcohol(age, is_driving):
+    if age >= 21 and is_driving == no:
+        return True
+    return False",True,1
+0.15625,3.0,0.0,0.8888888888888888,9,0.65625,0.1875,0.2222222222222222,0.4444444444444444,False,1974,kthDigit,"def kthDigit(x, k):
+    
+	return",False,1
+0.5223880597014925,1.0,0.6666666666666666,0.7777777777777778,9,0.3283582089552239,0.14925373134328357,0.3333333333333333,0.3333333333333333,True,253,helloWorld,"def helloWorld():
+    return ('Hello World!')",True,1
+0.95,1.0,0.625,0.75,8,0.016666666666666666,0.03333333333333333,0.0,0.0,True,259,doubleX,"def doubleX(x):
+    return 2*x",True,1
+0.34,1.5,0.5,0.6666666666666666,6,0.54,0.12,0.0,0.0,True,271,convertToDegrees,"import math
+def convertToDegrees(x):
+    return math.degrees(x)",False,1
+0.14814814814814814,2.0,0.6,0.8,5,0.5925925925925926,0.25925925925925924,0.0,0.0,False,1067,nearestBusStop,"def nearestBusStop(street):
+	return",False,1
+0.8679245283018868,1.0,0.5714285714285714,0.7142857142857143,7,0.07547169811320754,0.05660377358490566,0.0,0.25,True,260,raiseToPower,"def raiseToPower(x, y):
+    return x**y",True,1
+0.925,1.0,0.6666666666666666,1.0,3,0.075,0.0,0.0,0.2,True,281,intToFloat,"def intToFloat(x):
+	return float(x)",True,1
+0.15625,3.0,0.5,1.0,2,0.65625,0.1875,0.0,0.16666666666666666,True,780,kthDigit,"def kthDigit(x, k):
+	return (x % (10**k)) // 10**(k-1)",True,1
+0.25,2.5,1.0,1.0,1,0.6111111111111112,0.1388888888888889,0.0,0.14285714285714285,False,776,howManyEggCartons,"def howManyEggCartons(eggs):
+	return math.ceil(eggs//12)",False,1
+0.7560975609756098,1.0,0.5,0.5,0,0.1951219512195122,0.04878048780487805,0.0,0.25,True,282,leftoverCandy,"def leftoverCandy(candyBars, friends):
+	return candyBars % friends",True,1
+0.5135135135135135,1.0,0.75,1.0,4,0.35135135135135137,0.13513513513513514,0.0,0.2222222222222222,False,279,findRoot,"import math
+def findRoot(a, b, c):
+    return ((-b) + math.sqrt((b**2) - (4 * a * c))) / (2* a)\",True,1
+0.23809523809523808,7.0,0.5,0.5,0,0.42857142857142855,0.3333333333333333,0.3333333333333333,0.3333333333333333,False,675,oneToN,"def oneToN(n):
+    for x in range(1, n+1):
+        print (x, end='')
+print (oneToN(5))",True,1
+0.34615384615384615,2.0,0.5454545454545454,0.9090909090909091,11,0.34615384615384615,0.3076923076923077,0.3333333333333333,0.3333333333333333,True,957,canDrinkAlcohol,"def canDrinkAlcohol(age, isDriving):
+    canDrink = (age >= 21) and (isDriving == False)
+    return canDrink",True,1
+0.5223880597014925,1.0,0.5,0.9,10,0.3283582089552239,0.14925373134328357,0.0,0.0,True,923,helloWorld,"def helloWorld():
+    s = 'Hello World!'
+    return s
+",True,1
+0.95,1.0,0.4444444444444444,0.8888888888888888,9,0.016666666666666666,0.03333333333333333,0.0,0.0,True,925,doubleX,"def doubleX(x):
+    s = 2 * x
+    return s",True,1
+0.8679245283018868,1.0,0.375,0.875,8,0.07547169811320754,0.05660377358490566,0.0,0.0,True,928,raiseToPower,"def raiseToPower(x, y):
+    val = x ** y
+    return val",True,1
+0.34,1.5,0.2857142857142857,0.8571428571428571,7,0.54,0.12,0.0,0.0,True,932,convertToDegrees,"import math
+def convertToDegrees(x):
+    val = math.degrees(x)
+    return val",False,1
+0.5135135135135135,1.0,0.3333333333333333,1.0,6,0.35135135135135137,0.13513513513513514,0.0,0.0,False,935,findRoot,"def findRoot(a,b,c):
+    x1 = ( -b - math.sqrt(b**2 - 4*a*c) ) / 2*a
+    x2 = ( -b + math.sqrt(b**2 - 4*a*c) ) / 2*a
+    val = max(x1, x2)
+    return val",True,1
+0.25,2.5,0.25,1.0,4,0.6111111111111112,0.1388888888888889,0.14285714285714285,0.14285714285714285,True,948,howManyEggCartons,"import math
+def howManyEggCartons(eggs):
+    val = math.ceil(eggs / 12)
+    return val",False,1
+0.14814814814814814,2.0,0.5,1.0,2,0.5925925925925926,0.25925925925925924,0.125,0.125,False,951,nearestBusStop,"def nearestBusStop(street):
+    x = street + 3
+    stop = x // 8 * 8
+    return val",True,1
+0.38461538461538464,2.0,0.5,0.5,0,0.5,0.11538461538461539,0.2,0.2,True,956,hasTwoDigits,"def digitCount(x):
+    count = 1
+    while (x >= 10):
+        count += 1
+        x //= 10
+    return count
+
+def hasTwoDigits(x):
+    val = digitCount(x) == 2
+    return val",False,1
+0.2,3.5,0.5384615384615384,0.9230769230769231,13,0.4,0.4,0.3076923076923077,0.15384615384615385,False,958,isEvenPositiveInt,"def isEvenPositiveInt(x):
+    isInt = (x / 3) == (x // 3)
+    isEven = x % 2 == 0
+    isPositive = x > 0
+    test = isInt and isEven and isPositive
+    return test",True,1
+0.9649122807017544,1.0,0.5,0.5,0,0.017543859649122806,0.017543859649122806,0.3333333333333333,0.3333333333333333,True,1765,doubleX,"def doubleX(x):
+    return x * 2",True,2
+0.2631578947368421,2.5,1.0,1.0,1,0.6052631578947368,0.13157894736842105,0.0,0.0,False,1777,howManyEggCartons,"def howManyEggCartons(eggs):
+	return eggs // 12 + 1",False,2
+0.9047619047619048,1.0,0.5,0.5,2,0.07142857142857142,0.023809523809523808,0.0,0.5,True,1776,intToFloat,"def intToFloat(x):
+    return x /1",True,2
+0.40816326530612246,1.0,0.6666666666666666,0.6666666666666666,3,0.46938775510204084,0.12244897959183673,0.0,0.3333333333333333,False,1768,convertToDegrees,"def convertToDegrees (x):
+    return x * 180 \",True,2
+0.8823529411764706,1.0,0.5,0.5,4,0.058823529411764705,0.058823529411764705,0.0,0.5,False,1766,raiseToPower,"def raiseToPower (x,y):
+    x ** y",True,2
+0.12,3.0,0.3333333333333333,0.6666666666666666,6,0.52,0.36,0.16666666666666666,0.5,False,1771,isPunctuation,"def isPunctuation ():
+    return 
+",False,2
+0.7619047619047619,1.0,0.2857142857142857,0.5714285714285714,7,0.16666666666666666,0.07142857142857142,0.14285714285714285,0.5714285714285714,True,1778,leftoverCandy,"def leftoverCandy(candy_bars, friends):
+	return candy_bars % friends",True,2
+0.5303030303030303,1.0,0.1111111111111111,0.3333333333333333,9,0.3333333333333333,0.13636363636363635,0.3333333333333333,0.3333333333333333,False,2704,helloWorld,'Hello World',False,2
+0.7619047619047619,1.0,0.125,0.25,8,0.16666666666666666,0.07142857142857142,0.0,1.0,False,2729,leftoverCandy,"def leftoverCandy(candy_bars, friends):
+	return candy_bars/friends",False,2
+0.8823529411764706,1.0,0.0,0.14285714285714285,7,0.058823529411764705,0.058823529411764705,0.0,1.0,True,2712,raiseToPower,"def raiseToPower(x, y):
+    return x ** y",True,2
+0.40816326530612246,1.0,0.0,0.0,5,0.46938775510204084,0.12244897959183673,0.25,0.5,False,2714,convertToDegrees,"def convertToDegrees(x):
+    return x * 180 / math.pi",False,2
+0.9047619047619048,1.0,0.0,0.0,2,0.07142857142857142,0.023809523809523808,0.42857142857142855,0.42857142857142855,False,2728,intToFloat,"def intToFloat(x):
+    return x // 1",True,2
+0.17142857142857143,3.0,0.0,0.0,1,0.6285714285714286,0.2,0.375,0.5,False,2738,kthDigit,"def kthDigit(x, k):
+	return x //(10 ** (k -1))",False,2
+0.2631578947368421,2.5,0.5,0.5,0,0.6052631578947368,0.13157894736842105,0.3333333333333333,0.5555555555555556,False,2731,howManyEggCartons,"def howManyEggCartons(eggs):
+	return eggs // 12",False,2
+0.9649122807017544,1.0,0.5,0.5,0,0.017543859649122806,0.017543859649122806,0.3333333333333333,0.3333333333333333,True,1651,doubleX,"def doubleX(x):
+    return x * 2",True,2
+0.8823529411764706,1.0,1.0,1.0,1,0.058823529411764705,0.058823529411764705,0.0,0.0,True,1652,raiseToPower,"def raiseToPower(x, y):
+    return x ** y",True,2
+0.40816326530612246,1.0,1.0,1.0,2,0.46938775510204084,0.12244897959183673,0.0,0.0,False,1653,convertToDegrees,"import math
+def convertToDegrees(x):
+    return math.x",True,2
+0.5303030303030303,1.0,0.6666666666666666,0.6666666666666666,3,0.3333333333333333,0.13636363636363635,0.0,0.3333333333333333,True,1650,helloWorld,"def helloWorld():
+    return 'Hello World!'",True,2
+0.5303030303030303,1.0,0.625,0.75,8,0.3333333333333333,0.13636363636363635,0.3333333333333333,0.3333333333333333,True,1916,helloWorld,"def helloWorld():
+    return 'Hello World!'",True,2
+0.40816326530612246,1.0,0.7142857142857143,0.8571428571428571,7,0.46938775510204084,0.12244897959183673,0.0,0.0,False,1919,convertToDegrees,"import math
+def convertToDegrees(x):
+    return x * 180 / math.pi",True,2
+0.46153846153846156,1.0,0.6666666666666666,0.8333333333333334,6,0.4358974358974359,0.10256410256410256,0.0,0.5,True,1920,findRoot,"import math
+def findRoot(a,b,c):
+    x1 = (-b + math.sqrt(b**2-4*a*c))/(2*a)
+    x2 = (-b - math.sqrt(b**2-4*a*c))/(2*a)
+    return max(x1, x2)",True,2
+0.9649122807017544,1.0,0.6,0.8,5,0.017543859649122806,0.017543859649122806,0.0,0.3333333333333333,True,1917,doubleX,"def doubleX(x):
+    return x * 2",True,2
+0.2631578947368421,2.5,0.5,0.5,0,0.6052631578947368,0.13157894736842105,0.0,0.25,False,1924,howManyEggCartons,"def howManyEggCartons(eggs):
+	return eggs // 12",False,2
+0.8823529411764706,1.0,0.3333333333333333,0.6666666666666666,3,0.058823529411764705,0.058823529411764705,0.0,0.4,True,1918,raiseToPower,"def raiseToPower(x,y):
+    return x ** y",True,2
+0.7619047619047619,1.0,0.0,0.5,2,0.16666666666666666,0.07142857142857142,0.0,0.3333333333333333,True,1921,leftoverCandy,"def leftoverCandy(candy_bars, friends):
+	return candy_bars % friends",True,2
+0.17142857142857143,3.0,0.0,0.0,1,0.6285714285714286,0.2,0.0,0.2857142857142857,False,1926,kthDigit,"def kthDigit(x, k):
+	return x % 10**k",False,2
+0.9047619047619048,1.0,0.5,0.75,4,0.07142857142857142,0.023809523809523808,0.0,0.375,True,1922,intToFloat,"def intToFloat(x):
+    return x / 1.0",True,2
+0.5303030303030303,1.0,0.5,0.5,0,0.3333333333333333,0.13636363636363635,0.3333333333333333,0.3333333333333333,True,2781,helloWorld,"def helloWorld():
+    return 'Hello World!'",False,2
+0.9649122807017544,1.0,1.0,1.0,1,0.017543859649122806,0.017543859649122806,0.0,0.0,True,2782,doubleX,"def doubleX (x):
+    return 2 * x",True,2
+0.8823529411764706,1.0,1.0,1.0,2,0.058823529411764705,0.058823529411764705,0.0,0.0,True,2783,raiseToPower,"def raiseToPower(x,y):
+    return x ** y",True,2
+0.9649122807017544,1.0,0.5,0.5,2,0.017543859649122806,0.017543859649122806,1.0,0.0,True,111,doubleX,"def doubleX(x):
+    return 2*x",True,2
+0.40816326530612246,1.0,1.0,1.0,1,0.46938775510204084,0.12244897959183673,0.5,0.0,False,114,convertToDegrees,"import module.math
+
+def convertToDegree(x):
+  deg(x)",False,2
+0.8823529411764706,1.0,0.5,0.5,0,0.058823529411764705,0.058823529411764705,0.3333333333333333,0.3333333333333333,True,82,raiseToPower,"def raiseToPower (x, y):
+    return x**y",True,2
+0.8823529411764706,1.0,0.0,1.0,1,0.058823529411764705,0.058823529411764705,1.0,0.0,True,970,raiseToPower,"def raiseToPower(x, y):
+    return x**y",True,2
+0.40816326530612246,1.0,0.5,1.0,2,0.46938775510204084,0.12244897959183673,0.5,0.0,False,1162,convertToDegrees,"import math
+def converToDegrees(x):
+    return math.degrees(x)",False,2
+0.9649122807017544,1.0,0.3333333333333333,1.0,3,0.017543859649122806,0.017543859649122806,0.3333333333333333,0.3333333333333333,True,969,doubleX,"def doubleX(x):
+    return x*2",True,2
+0.7619047619047619,1.0,1.0,1.0,1,0.16666666666666666,0.07142857142857142,0.3333333333333333,0.3333333333333333,True,2102,leftoverCandy,"def leftoverCandy(candyBars, friends):
+	return candyBars%friends",True,2
+0.9649122807017544,1.0,0.5,0.5,0,0.017543859649122806,0.017543859649122806,0.0,0.0,True,22,doubleX,"def doubleX(x):
+    return x*2",True,2
+0.16666666666666666,7.5,0.5,0.5,0,0.5,0.3333333333333333,0.3333333333333333,0.3333333333333333,True,16,oneToN,"def oneToN(n):
+    result = ''
+    for i in range(1,n+1):
+        result += str(i)
+    return result",False,2
+0.8823529411764706,1.0,0.5,0.5,0,0.058823529411764705,0.058823529411764705,0.3333333333333333,0.3333333333333333,True,2069,raiseToPower,"def raiseToPower(x,y):
+    return x**y",True,3
+0.46153846153846156,2.0,0.7777777777777778,0.8888888888888888,9,0.35384615384615387,0.18461538461538463,0.0,0.0,True,1409,helloWorld,"def helloWorld():
+    return 'Hello World!'",False,3
+0.8717948717948718,1.0,0.8571428571428571,1.0,7,0.10256410256410256,0.02564102564102564,0.0,0.0,True,2066,intToFloat,"def intToFloat(x):
+    return x/1",True,3
+0.3673469387755102,1.0,1.0,1.0,5,0.5102040816326531,0.12244897959183673,0.25,0.0,True,2071,convertToDegrees,"import math
+def convertToDegrees(x):
+    return x * (180 / math.pi)",False,3
+0.2571428571428571,3.0,0.875,1.0,8,0.6285714285714286,0.11428571428571428,0.2,0.0,False,2100,howManyEggCartons,"def howManyEggCartons(eggs):
+	return eggs / 12",False,3
+0.4,2.0,1.0,1.0,3,0.35,0.25,0.16666666666666666,0.16666666666666666,True,2034,firstAndLast,"def firstAndLast(s):
+	return s[0]+s[len(s)-1]",True,3
+0.9464285714285714,1.0,1.0,1.0,2,0.017857142857142856,0.03571428571428571,0.14285714285714285,0.14285714285714285,True,2068,doubleX,"def doubleX(x):
+    return x * 2",True,3
+0.7727272727272727,1.0,1.0,1.0,1,0.13636363636363635,0.09090909090909091,0.125,0.125,True,1410,backwardsCombine,"def backwardsCombine(s1, s2):
+	return s2+s1",True,3
+0.725,1.0,1.0,1.0,4,0.2,0.075,0.1111111111111111,0.1111111111111111,True,2098,leftoverCandy,"def leftoverCandy(candy_bars, friends):
+	return candy_bars % friends",True,3
+0.9464285714285714,1.0,0.5,0.5,0,0.017857142857142856,0.03571428571428571,0.3333333333333333,0.3333333333333333,True,2222,doubleX,"def doubleX(x):
+    return x*2",True,3
+0.46153846153846156,2.0,1.0,1.0,1,0.35384615384615387,0.18461538461538463,0.0,0.0,True,2223,helloWorld,"def helloWorld():
+    return 'Hello World!'
+",True,3
+0.8717948717948718,1.0,0.25,0.5,8,0.10256410256410256,0.02564102564102564,0.3333333333333333,0.3333333333333333,True,3041,intToFloat,"def intToFloat(x):
+    return x/1.0",True,3
+0.9464285714285714,1.0,0.4166666666666667,0.5833333333333334,12,0.017857142857142856,0.03571428571428571,0.0,0.0,True,3037,doubleX,"def doubleX(x):
+    return x*2",True,3
+0.725,1.0,0.36363636363636365,0.5454545454545454,11,0.2,0.075,0.0,0.0,True,3044,leftoverCandy,"def leftoverCandy(candy_bars, friends):
+	return candy_bars%friends",True,3
+0.2571428571428571,3.0,0.4,0.6,10,0.6285714285714286,0.11428571428571428,0.0,0.0,False,3043,howManyEggCartons,"def howManyEggCartons(eggs):
+	return eggs//12",False,3
+0.45714285714285713,1.0,0.3333333333333333,0.5555555555555556,9,0.42857142857142855,0.11428571428571428,0.0,0.25,True,3042,findRoot,"import math
+def findRoot(a,b,c):
+    value_1= (-b+math.sqrt(b**2-4*a*c))/(2*a)
+    value_2=(-b-math.sqrt(b**2-4*a*c))/(2*a)
+    if value_1>value_2:
+        return value_1
+    else:
+        return value_2",True,3
+0.8823529411764706,1.0,0.14285714285714285,0.42857142857142855,7,0.058823529411764705,0.058823529411764705,0.0,0.2,True,3038,raiseToPower,"def raiseToPower(x,y):
+    return x**y",True,3
+0.46153846153846156,2.0,0.46153846153846156,0.6153846153846154,13,0.35384615384615387,0.18461538461538463,0.0,0.16666666666666666,True,3035,helloWorld,"def helloWorld():
+    return 'Hello World!'",True,3
+0.38461538461538464,2.0,0.0,0.3333333333333333,3,0.5,0.11538461538461539,0.2222222222222222,0.1111111111111111,False,3067,hasTwoDigits,"def hasTwoDigits(x):
+	if x//10<10:
+	    return True",True,3
+0.4,2.5,0.0,0.0,1,0.35,0.25,0.2727272727272727,0.18181818181818182,False,3055,singlePigLatin,"def singlePigLatin(s):
+	head=s[0:2]
+	tail=s[2:]
+	return tail+head+'ay'",True,3
+0.3673469387755102,1.0,0.5,0.5,0,0.5102040816326531,0.12244897959183673,0.25,0.25,False,3039,convertToDegrees,"import math
+def convertToDegrees(x):
+    return degrees.x",True,3
+0.14285714285714285,8.0,0.0,0.3333333333333333,6,0.5714285714285714,0.2857142857142857,0.23076923076923078,0.3076923076923077,True,3080,oneToN,"def oneToN(n):
+    stringy=''
+    for i in range(1,n+1):
+        stringy=stringy + str(i)
+    return stringy",False,3
+0.9464285714285714,1.0,0.5,0.5,0,0.017857142857142856,0.03571428571428571,0.3333333333333333,0.3333333333333333,True,1143,doubleX,"def doubleX(x):
+    return x*2",True,3
+0.2916666666666667,2.5,0.5833333333333334,0.9166666666666666,12,0.375,0.3333333333333333,1.0,0.0,True,525,canDrinkAlcohol,"def canDrinkAlcohol(age, isDriving):
+	return age>=21 and not isDriving",False,3
+0.38461538461538464,2.0,0.5454545454545454,0.9090909090909091,11,0.5,0.11538461538461539,0.6666666666666666,0.0,True,524,hasTwoDigits,"def hasTwoDigits(x):
+	return x>9 and x<100",False,3
+0.6538461538461539,1.0,0.5,0.9,10,0.15384615384615385,0.19230769230769232,0.5,0.0,True,523,overNineThousand,"def overNineThousand(powerLevel):
+	return powerLevel>9000",True,3
+0.18181818181818182,3.0,0.625,0.875,8,0.6363636363636364,0.18181818181818182,0.5,0.0,False,506,kthDigit,"def kthDigit(x, k):
+	return k//(10**k)",False,3
+0.9464285714285714,1.0,0.5714285714285714,0.8571428571428571,7,0.017857142857142856,0.03571428571428571,0.42857142857142855,0.14285714285714285,True,496,doubleX,"def doubleX(x):
+    return 2*x",True,3
+0.45714285714285713,1.0,0.6,1.0,5,0.42857142857142855,0.11428571428571428,0.375,0.125,False,500,findRoot,"def findRoot(a,b,c):
+    x1 = (-b+(b**2-4*a*c)**0.5)/(2*a)
+    x2 = (-b-(b**2-4*a*c)**0.5)/(2*a)
+    return x1,x2",False,3
+0.3673469387755102,1.0,0.75,1.0,4,0.5102040816326531,0.12244897959183673,0.3333333333333333,0.2222222222222222,False,497,convertToDegrees,"import math
+def covertToDegrees(x):
+    return math.degrees(x)",False,3
+0.8823529411764706,1.0,1.0,1.0,3,0.058823529411764705,0.058823529411764705,0.3,0.3,False,492,raiseToPower,"def riseToPower(x,y):
+    return x**y
+",True,3
+0.46153846153846156,2.0,1.0,1.0,2,0.35384615384615387,0.18461538461538463,0.2727272727272727,0.36363636363636365,True,491,helloWorld,"def helloWorld():
+    return 'Hello World!'
+helloWorld()",True,3
+0.2571428571428571,3.0,1.0,1.0,1,0.6285714285714286,0.11428571428571428,0.25,0.3333333333333333,True,505,howManyEggCartons,"import math
+def howManyEggCartons(eggs):
+	return math.ceil(eggs/12)",False,3
+0.8717948717948718,1.0,0.5,0.5,0,0.10256410256410256,0.02564102564102564,0.23076923076923078,0.3076923076923077,True,503,intToFloat,"def intToFloat(x):
+	return float(x)",True,3
+0.725,1.0,0.5,0.8333333333333334,6,0.2,0.075,0.21428571428571427,0.2857142857142857,True,504,leftoverCandy,"def leftoverCandy(candyBars, friends):
+	return candyBars%friends",True,3
+0.46153846153846156,2.0,0.6363636363636364,0.9090909090909091,11,0.35384615384615387,0.18461538461538463,0.3333333333333333,0.3333333333333333,True,119,helloWorld,"def helloWorld():
+    return 'Hello World!'",True,3
+0.3673469387755102,1.0,0.5882352941176471,0.9411764705882353,17,0.5102040816326531,0.12244897959183673,0.5,0.0,False,122,convertToDegrees,"import math
+def convertToDegrees(x):
+    return degrees(x)",False,3
+0.4,2.0,0.6666666666666666,0.9333333333333333,15,0.35,0.25,0.5,0.25,False,1536,firstAndLast,"def firstAndLast(s):
+	return s[0] + s[len(s)]",False,3
+0.725,1.0,0.6923076923076923,0.9230769230769231,13,0.2,0.075,0.5,0.3333333333333333,True,125,leftoverCandy,"def leftoverCandy(candyBars, friends):
+	return candyBars % friends",True,3
+0.45714285714285713,1.0,0.6666666666666666,0.9166666666666666,12,0.42857142857142855,0.11428571428571428,0.42857142857142855,0.2857142857142857,True,126,findRoot,"def findRoot(a,b,c):
+    x1 = (-b + (b**2 - (4*a*c))**.5)/(2*a)
+    x2 = (-b - (b**2 - (4*a*c))**.5)/(2*a)
+    return max(x1,x2)",False,3
+0.4,2.5,0.7,0.9,10,0.35,0.25,0.375,0.25,False,1543,singlePigLatin,"def singlePigLatin(s):
+	return s[len(s)-1] + s[1:len(s)] + s[0]",False,3
+0.1724137931034483,2.0,0.6666666666666666,0.6666666666666666,3,0.6206896551724138,0.20689655172413793,0.3333333333333333,0.3333333333333333,False,251,nearestBusStop,"import math
+def nearestBusStop(street):
+    rem = street%8
+    if(rem<=4):
+        busstop = (street//8)*8
+        return busstop
+    else:
+        busstop = (street//8)*8
+        return busstop",False,3
+0.9464285714285714,1.0,0.625,0.875,8,0.017857142857142856,0.03571428571428571,0.3,0.4,True,120,doubleX,"def doubleX(x):
+    return x*2",True,3
+0.07692307692307693,3.0,0.5714285714285714,0.8571428571428571,7,0.5384615384615384,0.38461538461538464,0.2727272727272727,0.36363636363636365,True,1538,isPunctuation,"import string
+def isPunctuation(s):
+	return s in string.punctuation",False,3
+0.8717948717948718,1.0,0.6,0.8,5,0.10256410256410256,0.02564102564102564,0.3076923076923077,0.3076923076923077,True,124,intToFloat,"def intToFloat(x):
+	return float(x)",True,3
+0.2916666666666667,2.5,0.5,0.75,4,0.375,0.3333333333333333,0.2857142857142857,0.2857142857142857,True,257,canDrinkAlcohol,"def canDrinkAlcohol(age, isDriving):
+    if(age < 21 or isDriving):
+        return False
+    return True",False,3
+0.38461538461538464,2.0,0.5,0.5,2,0.5,0.11538461538461539,0.26666666666666666,0.26666666666666666,True,255,hasTwoDigits,"def hasTwoDigits(x):
+	return x >= 10 and x < 100",False,3
+0.6538461538461539,1.0,0.0,0.0,1,0.15384615384615385,0.19230769230769232,0.25,0.25,True,254,overNineThousand,"def overNineThousand(powerLevel):
+	return powerLevel > 9000",True,3
+0.8823529411764706,1.0,0.6666666666666666,0.8888888888888888,9,0.058823529411764705,0.058823529411764705,0.2777777777777778,0.2222222222222222,True,121,raiseToPower,"def raiseToPower(x,y):
+    return x**y",True,3
+0.8823529411764706,1.0,0.46153846153846156,0.9230769230769231,13,0.058823529411764705,0.058823529411764705,0.3333333333333333,0.3333333333333333,True,1070,raiseToPower,"def raiseToPower(x, y):
+    return x ** y",True,3
+0.6538461538461539,1.0,0.4166666666666667,0.9166666666666666,12,0.15384615384615385,0.19230769230769232,0.0,0.0,True,1091,overNineThousand,"def overNineThousand(powerLevel):
+	return powerLevel > 9000",True,3
+0.9464285714285714,1.0,0.36363636363636365,0.9090909090909091,11,0.017857142857142856,0.03571428571428571,0.0,0.0,True,1069,doubleX,"def doubleX(x):
+    return x * 2",True,3
+0.725,1.0,0.2222222222222222,0.8888888888888888,9,0.2,0.075,0.0,0.0,True,1075,leftoverCandy,"def leftoverCandy(candyBars, friends):
+	return candyBars % friends",True,3
+0.2571428571428571,3.0,0.25,0.875,8,0.6285714285714286,0.11428571428571428,0.0,0.0,False,1076,howManyEggCartons,"def howManyEggCartons(eggs):
+	return eggs//12",False,3
+0.8717948717948718,1.0,0.14285714285714285,0.8571428571428571,7,0.10256410256410256,0.02564102564102564,0.0,0.2,True,1074,intToFloat,"def intToFloat(x):
+	return float(x)",True,3
+0.46153846153846156,2.0,0.3,0.9,10,0.35384615384615387,0.18461538461538463,0.0,0.16666666666666666,True,1068,helloWorld,"def helloWorld():
+    return 'Hello World!'
+",True,3
+0.3673469387755102,1.0,0.0,0.75,4,0.5102040816326531,0.12244897959183673,0.125,0.125,True,1071,convertToDegrees,"import math
+def convertToDegrees(x):
+    return (x * (180 / math.pi))",False,3
+0.45714285714285713,1.0,0.0,1.0,2,0.42857142857142855,0.11428571428571428,0.2,0.1,False,1072,findRoot,"def QuadraticFormula(a, b, c):
+    neg_x = (- b - ((b ** 2) -4 * a * c )** 0.5)/ (2 * a)
+    pos_x = (- b + ((b ** 2) -4 * a * c )** 0.5)/ (2 * a)
+    return max(neg_x, pos_x)",True,3
+0.2916666666666667,2.5,0.0,1.0,1,0.375,0.3333333333333333,0.18181818181818182,0.18181818181818182,False,1100,canDrinkAlcohol,"def canDrinkAlcohol(age, isDriving):
+    if age >= 21 and not isDriving:
+        return True\",False,3
+0.38461538461538464,2.0,0.5,0.5,0,0.5,0.11538461538461539,0.16666666666666666,0.25,False,1093,hasTwoDigits,"def hasTwoDigits(x):
+	return x// 10 ** 2 == 0",False,3
+0.18181818181818182,3.0,0.16666666666666666,0.8333333333333334,6,0.6363636363636364,0.18181818181818182,0.15384615384615385,0.3076923076923077,False,1078,kthDigit,"def kthDigit(x, k):
+	return (x // (10 **k)) % 10",False,3
+0.18181818181818182,3.0,0.6363636363636364,0.8181818181818182,11,0.6363636363636364,0.18181818181818182,0.3333333333333333,0.3333333333333333,False,39,kthDigit,"def kthDigit(x, k):
+	x = abs(x)
+	return x // (10**k) % 10",True,3
+0.2571428571428571,3.0,0.7,0.8,10,0.6285714285714286,0.11428571428571428,0.0,1.0,False,33,howManyEggCartons,"def howManyEggCartons(eggs):
+	return eggs % 12 + 1",True,3
+0.8717948717948718,1.0,0.6666666666666666,0.7777777777777778,9,0.10256410256410256,0.02564102564102564,0.0,1.0,True,31,intToFloat,"def intToFloat(x):
+	return float(x)",True,3
+0.8823529411764706,1.0,0.7142857142857143,0.8571428571428571,7,0.058823529411764705,0.058823529411764705,0.25,0.5,True,26,raiseToPower,"def raiseToPower(x,y):
+    return x**y
+",True,3
+0.9464285714285714,1.0,0.6666666666666666,0.8333333333333334,6,0.017857142857142856,0.03571428571428571,0.2,0.4,True,24,doubleX,"def doubleX(x):
+    return x*2",True,3
+0.46153846153846156,2.0,0.5,0.75,4,0.35384615384615387,0.18461538461538463,0.16666666666666666,0.3333333333333333,True,23,helloWorld,"def helloWorld():
+    return 'Hello World!'",False,3
+0.725,1.0,0.3333333333333333,0.6666666666666666,3,0.2,0.075,0.14285714285714285,0.2857142857142857,True,32,leftoverCandy,"def leftoverCandy(candyBars, friends):
+	return candyBars % friends",True,3
+0.1724137931034483,2.0,0.5,1.0,2,0.6206896551724138,0.20689655172413793,0.125,0.25,False,47,nearestBusStop,"def nearestBusStop(street):
+
+    distanceBusStop = street % 8 
+
+    if distanceBusStop == 0: return street
+
+    elif 0 < distanceBusStop <= 4: return street - distanceBusStop
+
+    elif 4 < distanceBusStop < 8:
+
+        distanceToNextBusStop = 8",False,3
+0.3673469387755102,1.0,1.0,1.0,1,0.5102040816326531,0.12244897959183673,0.1111111111111111,0.3333333333333333,False,27,convertToDegrees,"import math
+
+def convertToDegrees(x):
+    return x * (360/math.pi)",False,3
+0.45714285714285713,1.0,0.5,0.5,0,0.42857142857142855,0.11428571428571428,0.1,0.4,True,30,findRoot,"def findRoot(a,b,c):
+    root1 = (-b + ((b**2 - 4*a*c)**0.5)) / (2*a)
+    root2 = (-b - ((b**2 - 4*a*c)**0.5)) / (2*a)
+    if root1 >= root2:
+        return root1
+    else:
+        return root2",False,3
+0.6538461538461539,1.0,0.6,0.8,5,0.15384615384615385,0.19230769230769232,0.09090909090909091,0.36363636363636365,True,48,overNineThousand,"def overNineThousand(powerLevel):
+	if powerLevel > 9000: return True
+	return False",True,3
+0.8823529411764706,1.0,1.0,1.0,3,0.058823529411764705,0.058823529411764705,0.3333333333333333,0.3333333333333333,True,321,raiseToPower,"def raiseToPower(x, y):
+    return x ** y",True,3
+0.9464285714285714,1.0,0.5,0.5,0,0.017857142857142856,0.03571428571428571,0.0,0.0,True,317,doubleX,"def doubleX(x):
+    return x * 2",True,3
+0.46153846153846156,2.0,1.0,1.0,1,0.35384615384615387,0.18461538461538463,0.0,0.0,True,316,helloWorld,"def helloWorld():
+    return 'Hello World!'",True,3
+0.14285714285714285,8.0,1.0,1.0,2,0.5714285714285714,0.2857142857142857,0.0,0.0,True,324,oneToN,"def oneToN(n):
+    string = ''
+    for i in range(1, n + 1):
+        string = string + str(i)
+    return string",False,3
+0.2916666666666667,2.5,1.0,1.0,4,0.375,0.3333333333333333,0.0,0.0,True,388,canDrinkAlcohol,"def canDrinkAlcohol(age, isDriving):
+	return (age >= 21 and isDriving == False)",False,3
+0.2702702702702703,2.0,0.5,0.5,0,0.5945945945945946,0.13513513513513514,0.3333333333333333,0.3333333333333333,False,2412,howManyEggCartons,"def howManyEggCartons(eggs):
+	return eggs // 12",False,4
+0.5151515151515151,1.0,0.25,0.625,8,0.3181818181818182,0.16666666666666666,0.0,1.0,False,1484,helloWorld,"def helloWorld():
+    print('Hello World!')
+",False,4
+0.9491525423728814,1.0,0.14285714285714285,0.5714285714285714,7,0.01694915254237288,0.03389830508474576,0.0,1.0,True,1486,doubleX,"def doubleX(x):
+    return 2 * x\",True,4
+0.125,3.0,0.16666666666666666,0.5,6,0.5,0.375,0.0,0.6666666666666666,False,1490,isPunctuation,"import string
+def isPunctuation(h):
+    return h == string.punctuation",False,4
+0.38,1.0,0.2,0.4,5,0.52,0.1,0.0,0.75,False,1488,convertToDegrees,"import math
+def convertToDegrees(x):
+    return(x * (360 / 2*math.pi))",False,4
+0.8679245283018868,1.0,0.2222222222222222,0.6666666666666666,9,0.07547169811320754,0.05660377358490566,0.0,0.8,True,1487,raiseToPower,"def raiseToPower(x, y):
+    return x ** y",True,4
+0.9024390243902439,1.0,0.0,0.3333333333333333,3,0.07317073170731707,0.024390243902439025,0.0,0.6666666666666666,True,2405,intToFloat,"def intToFloat(x):
+    return x/1",True,4
+0.7804878048780488,1.0,0.0,0.0,2,0.14634146341463414,0.07317073170731707,0.0,0.5714285714285714,False,2409,leftoverCandy,"def leftoverCandy(candy_bars, friends):
+	return candy_bars // friends",True,4
+0.18181818181818182,3.5,0.45454545454545453,0.8181818181818182,11,0.4090909090909091,0.4090909090909091,0.3333333333333333,0.3333333333333333,False,2312,isEvenPositiveInt,"def isEvenPositiveInt(x):
+	return x%1==x and x>0 and x%2==0",False,4
+0.18181818181818182,3.0,0.3888888888888889,0.8888888888888888,18,0.6363636363636364,0.18181818181818182,0.0,1.0,False,2289,kthDigit,"def kthDigit(x, k):
+	return x[k]",False,4
+0.9491525423728814,1.0,0.35294117647058826,0.8823529411764706,17,0.01694915254237288,0.03389830508474576,0.0,1.0,True,2246,doubleX,"def doubleX(x):
+    return 2*x",True,4
+0.8679245283018868,1.0,0.3125,0.875,16,0.07547169811320754,0.05660377358490566,0.0,0.6666666666666666,True,2247,raiseToPower,"def raiseToPower(x,y):
+    return x**y",True,4
+0.16666666666666666,2.0,0.3333333333333333,0.8666666666666667,15,0.5666666666666667,0.26666666666666666,0.0,0.5,False,2293,nearestBusStop,"def nearestBusStop(street):
+	return street//8 *8",False,4
+0.38,1.0,0.35714285714285715,0.8571428571428571,14,0.52,0.1,0.0,0.6,False,2248,convertToDegrees,"def convertToDegrees(x):
+    import math
+    return degrees(x)",False,4
+0.4,2.0,0.38461538461538464,0.8461538461538461,13,0.4,0.2,0.0,0.6666666666666666,False,2299,singlePigLatin,"def singlePigLatin(s):
+	return s[1,len(s)-1]+s[0]+'ay'",True,4
+0.38461538461538464,2.5,0.5,0.8,10,0.34615384615384615,0.2692307692307692,0.125,0.625,False,2310,canDrinkAlcohol,"def canDrinkAlcohol(age, is_driving):
+	return age>=21 and is_driving==no",True,4
+0.3793103448275862,2.0,0.5,0.875,8,0.4827586206896552,0.13793103448275862,0.1111111111111111,0.6666666666666666,True,2309,hasTwoDigits,"def hasTwoDigits(x):
+	return x>=10 and x<=99",False,4
+0.7727272727272727,1.0,0.5,0.5,0,0.09090909090909091,0.13636363636363635,0.1,0.6,True,2296,backwardsCombine,"def backwardsCombine(s1, s2):
+	return s2+s1",True,4
+0.6785714285714286,1.0,0.42857142857142855,0.8571428571428571,7,0.10714285714285714,0.21428571428571427,0.09090909090909091,0.5454545454545454,True,2308,overNineThousand,"def overNineThousand(power_level):
+	return power_level>9000",True,4
+0.5151515151515151,1.0,0.3333333333333333,0.8333333333333334,6,0.3181818181818182,0.16666666666666666,0.08333333333333333,0.5,True,2245,helloWorld,"def helloWorld():
+    return 'Hello World!'
+",True,4
+0.4,2.0,0.2,0.8,5,0.4,0.2,0.07692307692307693,0.46153846153846156,True,2298,firstAndLast,"def firstAndLast(s):
+	return s[0]+s[len(s)-1]",False,4
+0.4864864864864865,1.0,0.25,0.75,4,0.43243243243243246,0.08108108108108109,0.07142857142857142,0.42857142857142855,False,2269,findRoot,"def root_function(a,b,c):
+    import math
+    x1=(-b+sqrt(b**2-4*a*c))/(2*a)
+    x2=(-b-sqrt(b**2-4*a*c))/(2*a)
+    if x1>x2:
+        return x1
+    else:
+        return x2",False,4
+0.2702702702702703,2.0,0.3333333333333333,1.0,3,0.5945945945945946,0.13513513513513514,0.06666666666666667,0.4666666666666667,False,2279,howManyEggCartons,"def howManyEggCartons(eggs):
+	return ceil(eggs/12)",False,4
+0.9024390243902439,1.0,0.5,1.0,2,0.07317073170731707,0.024390243902439025,0.0625,0.5,False,2273,intToFloat,"def intToFloat(x):
+    return",True,4
+0.7804878048780488,1.0,1.0,1.0,1,0.14634146341463414,0.07317073170731707,0.058823529411764705,0.5294117647058824,False,2277,leftoverCandy,"def leftoverCandy(candy_bars, friends):
+	return candy_bars/friends",True,4
+0.125,3.0,0.5555555555555556,0.8888888888888888,9,0.5,0.375,0.05555555555555555,0.5555555555555556,False,2253,isPunctuation,"def isPunctuation(x):
+    import string
+    string.punctuation(x)",False,4
+0.2702702702702703,2.0,0.18181818181818182,0.2727272727272727,11,0.5945945945945946,0.13513513513513514,0.3333333333333333,0.3333333333333333,False,1701,howManyEggCartons,"def howManyEggCartons(eggs):
+	return eggs / 12",False,4
+0.16666666666666666,2.0,0.16666666666666666,0.25,12,0.5666666666666667,0.26666666666666666,0.0,1.0,False,1715,nearestBusStop,"def nearestBusStop(street):
+	remainder = street % 8 
+	return remainder + 8",False,4
+0.6785714285714286,1.0,0.15384615384615385,0.23076923076923078,13,0.10714285714285714,0.21428571428571427,0.0,1.0,True,1871,overNineThousand,"def overNineThousand(power_level):
+	if power_level > 9000:
+	    return True
+	else:
+	    return False",True,4
+0.8679245283018868,1.0,0.1,0.2,10,0.07547169811320754,0.05660377358490566,0.0,0.6666666666666666,True,1694,raiseToPower,"def raiseToPower(x,y):
+    result = x**y
+    return result
+",True,4
+0.9024390243902439,1.0,0.26666666666666666,0.3333333333333333,15,0.07317073170731707,0.024390243902439025,0.0,0.5,True,1699,intToFloat,"def intToFloat(x):
+    return x / 1",True,4
+0.18181818181818182,3.0,0.3125,0.375,16,0.6363636363636364,0.18181818181818182,0.0,0.4,False,1712,kthDigit,"def kthDigit(x, k):
+	return x[k]",False,4
+0.5151515151515151,1.0,0.29411764705882354,0.35294117647058826,17,0.3181818181818182,0.16666666666666666,0.0,0.5,True,1886,helloWorld,"def helloWorld():
+    return 'Hello World!'",False,4
+0.7804878048780488,1.0,0.21428571428571427,0.2857142857142857,14,0.14634146341463414,0.07317073170731707,0.0,0.42857142857142855,True,1700,leftoverCandy,"def leftoverCandy(candy_bars, friends):
+	return candy_bars % friends",True,4
+0.7727272727272727,1.0,0.14285714285714285,0.14285714285714285,7,0.09090909090909091,0.13636363636363635,0.2,0.3,False,1717,backwardsCombine,"def backwardsCombine(s1, s2):
+	return st2 + st1",True,4
+0.3793103448275862,2.0,0.25,0.25,4,0.4827586206896552,0.13793103448275862,0.3076923076923077,0.3076923076923077,False,1872,hasTwoDigits,"def hasTwoDigits(x):
+	if x / 10 > 0:
+	    return True
+	else:
+	     x / 10 > 10
+	     return False
+	return False",False,4
+0.9491525423728814,1.0,0.0,0.0,1,0.01694915254237288,0.03389830508474576,0.375,0.3125,True,1887,doubleX,"def doubleX(x):
+    return x *2",True,4
+0.9491525423728814,1.0,0.6666666666666666,0.6666666666666666,3,0.01694915254237288,0.03389830508474576,0.3333333333333333,0.3333333333333333,True,972,doubleX,"def doubleX(x):
+    return x*2",True,4
+0.38,1.0,1.0,1.0,2,0.52,0.1,0.0,0.0,False,1065,convertToDegrees,"import math
+def convertToDegrees(x):
+    return x*math.po/180",False,4
+0.5151515151515151,1.0,0.5,0.5,0,0.3181818181818182,0.16666666666666666,0.0,0.5,True,971,helloWorld,"def helloWorld():
+    return 'Hello World!'",True,4
+0.8679245283018868,1.0,1.0,1.0,1,0.07547169811320754,0.05660377358490566,0.0,0.3333333333333333,True,973,raiseToPower,"def raiseToPower(x, y):
+    return x**y",True,4
+0.38,1.0,0.6666666666666666,1.0,6,0.52,0.1,0.3333333333333333,0.3333333333333333,True,664,convertToDegrees,"import math
+
+def convertToDegrees(radangle):
+    return math.degrees(radangle)",False,4
+0.9491525423728814,1.0,0.75,1.0,8,0.01694915254237288,0.03389830508474576,0.0,0.0,True,662,doubleX,"def doubleX(x):
+    return x*2",True,4
+0.18181818181818182,3.0,0.7777777777777778,1.0,9,0.6363636363636364,0.18181818181818182,0.0,0.0,False,677,kthDigit,"def kthDigit(x, k):
+	x=abs(x)
+	return x%10**(k+1)",False,4
+0.4864864864864865,1.0,0.7142857142857143,1.0,7,0.43243243243243246,0.08108108108108109,0.0,0.3333333333333333,True,665,findRoot,"import math
+
+def findRoot(a,b,c):
+    radical= math.sqrt(b**2-4*a*c)
+    root1 = (-b+radical)/(2*a)
+    root2 = (-b-radical)/(2*a)
+    if root1 >= root2:
+        return root1
+    return root2",True,4
+0.5151515151515151,1.0,0.6,1.0,5,0.3181818181818182,0.16666666666666666,0.0,0.25,True,661,helloWorld,"def helloWorld():
+    return 'Hello World!'
+    
+",True,4
+0.8679245283018868,1.0,0.0,1.0,1,0.07547169811320754,0.05660377358490566,0.0,0.2,True,663,raiseToPower,"def raiseToPower(x,y):
+    return x**y",True,4
+0.7804878048780488,1.0,0.6666666666666666,1.0,3,0.14634146341463414,0.07317073170731707,0.0,0.16666666666666666,True,669,leftoverCandy,"def leftoverCandy(candyBars, friends):
+	return candyBars%friends",True,4
+0.9024390243902439,1.0,0.5,1.0,2,0.07317073170731707,0.024390243902439025,0.0,0.14285714285714285,True,667,intToFloat,"def intToFloat(x):
+	return float(x)",True,4
+0.2702702702702703,2.0,0.5,0.5,0,0.5945945945945946,0.13513513513513514,0.0,0.125,False,671,howManyEggCartons,"def howManyEggCartons(eggs):
+	return eggs//12+1",False,4
+0.16666666666666666,2.0,0.75,1.0,4,0.5666666666666667,0.26666666666666666,0.0,0.2222222222222222,False,696,nearestBusStop,"def nearestBusStop(street):
+	return round(street/8)",True,4
+0.5151515151515151,1.0,0.5,0.5,0,0.3181818181818182,0.16666666666666666,0.3333333333333333,0.3333333333333333,False,666,helloWorld,"def helloWorld():
+    print('Hello World!')
+",False,4
+0.7804878048780488,1.0,1.0,1.0,1,0.14634146341463414,0.07317073170731707,0.3333333333333333,0.3333333333333333,True,843,leftoverCandy,"def leftoverCandy(candyBars, friends):
+	return candyBars%friends",True,4
+0.9491525423728814,1.0,0.5,0.5,0,0.01694915254237288,0.03389830508474576,0.0,0.0,True,844,doubleX,"def doubleX(x):
+    return 2*x",True,4
+0.6785714285714286,1.0,1.0,1.0,2,0.10714285714285714,0.21428571428571427,0.0,0.0,False,845,overNineThousand,"def overNineThousand(powerLevel):
+	return powerlevel>9000",True,4
+0.5384615384615384,1.0,0.5,0.5,0,0.2923076923076923,0.16923076923076924,0.3333333333333333,0.3333333333333333,False,1793,helloWorld,"def helloWorld():
+    print ('Hello World')
+",False,5
+0.75,1.0,0.4444444444444444,0.7222222222222222,18,0.2,0.05,0.0,1.0,True,1807,leftoverCandy,"def leftoverCandy(candy_bars, friends):
+	return candy_bars % friends",True,5
+0.42857142857142855,1.0,0.47058823529411764,0.7647058823529411,17,0.42857142857142855,0.14285714285714285,0.0,0.5,False,1806,findRoot,"def findRoot(a, b, c):
+    import math
+    return (-b+math.sqrt(b**2 -4*a*c))/(2 * a)",False,5
+0.9482758620689655,1.0,0.4375,0.75,16,0.017241379310344827,0.034482758620689655,0.0,0.6666666666666666,True,1797,doubleX,"def doubleX(x):
+    return x * 2",True,5
+0.3404255319148936,2.0,0.42857142857142855,0.7857142857142857,14,0.5531914893617021,0.10638297872340426,0.2,0.4,True,1799,convertToDegrees,"import math
+def convertToDegrees(x):
+    return math.degrees(x)",False,5
+0.8627450980392157,1.0,0.38461538461538464,0.7692307692307693,13,0.0784313725490196,0.058823529411764705,0.16666666666666666,0.3333333333333333,True,1798,raiseToPower,"def raiseToPower(x, y):
+    return x **y",True,5
+0.8717948717948718,1.0,0.3333333333333333,0.75,12,0.10256410256410256,0.02564102564102564,0.14285714285714285,0.2857142857142857,True,1808,intToFloat,"def intToFloat(x):
+    return float(x)",True,5
+0.19444444444444445,3.0,0.3,0.7,10,0.6666666666666666,0.1388888888888889,0.2222222222222222,0.2222222222222222,True,1809,howManyEggCartons,"def howManyEggCartons(eggs):
+	egg_count= eggs//12 
+	if (eggs%12) > 0:
+	    egg_count+= 1
+	return egg_count",False,5
+0.17857142857142858,2.0,0.375,0.875,8,0.5714285714285714,0.25,0.2,0.2,False,1813,nearestBusStop,"def nearestBusStop(street):
+	bus_below = street//8
+	bus_above = street//8 + 8
+	if street-bus_below > bus_above-street:
+	    return bus_below
+	else:
+	    return bus_above\",False,5
+0.7142857142857143,1.0,0.2857142857142857,0.8571428571428571,7,0.14285714285714285,0.14285714285714285,0.18181818181818182,0.2727272727272727,True,1815,backwardsCombine,"def backwardsCombine(s1, s2):
+	return s2 + s1",True,5
+0.3684210526315789,3.0,0.3333333333333333,0.8333333333333334,6,0.3684210526315789,0.2631578947368421,0.16666666666666666,0.25,False,1831,singlePigLatin,"def singlePigLatin(s):
+	for letter in range(0, len(s)):
+	    pig_latin = s[1:len(s)-1] + s[0] + 'ay'
+	    return pig_latin",False,5
+0.6296296296296297,1.0,0.2,0.8,5,0.14814814814814814,0.2222222222222222,0.15384615384615385,0.3076923076923077,True,1835,overNineThousand,"def overNineThousand(power_level):
+	if power_level > 9000:
+	    return True
+	else:
+	    return False",True,5
+0.4074074074074074,2.0,0.25,0.75,4,0.4444444444444444,0.14814814814814814,0.14285714285714285,0.2857142857142857,False,1836,hasTwoDigits,"def hasTwoDigits(x):
+	if len(x) ==2:
+	    return True
+	else:
+	    return False",False,5
+0.4,2.0,0.3333333333333333,0.6666666666666666,3,0.28,0.32,0.13333333333333333,0.3333333333333333,False,1838,canDrinkAlcohol,"def canDrinkAlcohol(age, is_driving):
+	if age >= 21 and is_driving == False:
+	    return ('you can drink')",False,5
+0.09523809523809523,4.0,0.0,0.5,2,0.42857142857142855,0.47619047619047616,0.125,0.375,True,1841,isEvenPositiveInt,"def isEvenPositiveInt(x):
+	if type(x) == int and x>= 0 and x%2 == 0:
+	    return True
+	else:
+	    return False",False,5
+0.19047619047619047,7.0,0.0,1.0,1,0.42857142857142855,0.38095238095238093,0.11764705882352941,0.35294117647058826,False,1850,oneToN,"def oneToN(n):
+    return range(0,n_1)",False,5
+0.5384615384615384,1.0,0.6,0.8,5,0.2923076923076923,0.16923076923076924,0.3333333333333333,0.3333333333333333,True,1005,helloWorld,"def helloWorld():
+    return 'Hello World!'",True,5
+0.8627450980392157,1.0,0.6666666666666666,0.8333333333333334,6,0.0784313725490196,0.058823529411764705,0.0,0.0,True,1009,raiseToPower,"def raiseToPower(x,y):
+    return x ** y",True,5
+0.13043478260869565,2.0,0.75,1.0,4,0.4782608695652174,0.391304347826087,0.0,0.0,False,1030,isPunctuation,"def isPunctuation():
+    import string
+    return punctuation
+",False,5
+0.9482758620689655,1.0,0.6666666666666666,1.0,3,0.017241379310344827,0.034482758620689655,0.0,0.3333333333333333,True,1007,doubleX,"def doubleX(x):
+    return x * 2",True,5
+0.3404255319148936,2.0,1.0,1.0,2,0.5531914893617021,0.10638297872340426,0.0,0.25,False,1022,convertToDegrees,"def convertToDegrees(x):
+    import math
+    return x * (math.pi / 180)\",True,5
+0.75,1.0,1.0,1.0,1,0.2,0.05,0.0,0.4,True,1203,leftoverCandy,"def leftoverCandy(candy_bars, friends):
+	return candy_bars % friends",True,5
+0.8717948717948718,1.0,0.5,0.5,0,0.10256410256410256,0.02564102564102564,0.0,0.3333333333333333,True,1347,intToFloat,"def intToFloat(x):
+    return x / 1.0",True,5
+0.19444444444444445,3.0,0.4375,0.6875,16,0.6666666666666666,0.1388888888888889,0.3333333333333333,0.3333333333333333,False,1759,howManyEggCartons,"def howManyEggCartons(eggs):
+	return eggs % 12",False,5
+0.7142857142857143,1.0,0.4,0.6666666666666666,15,0.14285714285714285,0.14285714285714285,0.0,1.0,True,1934,backwardsCombine,"def backwardsCombine(s1, s2):
+	return s2 + s1",True,5
+0.9482758620689655,1.0,0.35714285714285715,0.6428571428571429,14,0.017241379310344827,0.034482758620689655,0.0,0.5,True,1440,doubleX,"def doubleX(x):
+    return x * 2",True,5
+0.8627450980392157,1.0,0.3076923076923077,0.6153846153846154,13,0.0784313725490196,0.058823529411764705,0.0,0.3333333333333333,True,1439,raiseToPower,"def raiseToPower(x,y):
+    return x**y",True,5
+0.8717948717948718,1.0,0.25,0.5833333333333334,12,0.10256410256410256,0.02564102564102564,0.0,0.25,True,1754,intToFloat,"def intToFloat(x):
+    return float(x)",True,5
+0.3404255319148936,2.0,0.18181818181818182,0.5454545454545454,11,0.5531914893617021,0.10638297872340426,0.0,0.2,True,1441,convertToDegrees,"import math
+def convertToDegrees(x):
+    return math.degrees(x)
+",False,5
+0.6296296296296297,1.0,0.1,0.5,10,0.14814814814814814,0.2222222222222222,0.0,0.16666666666666666,True,2094,overNineThousand,"def overNineThousand(power_level):
+	return power_level > 9000",True,5
+0.4074074074074074,2.0,0.14285714285714285,0.42857142857142855,7,0.4444444444444444,0.14814814814814814,0.125,0.125,False,2095,hasTwoDigits,"def hasTwoDigits(x):
+	return x // 100",False,5
+0.3684210526315789,3.0,0.16666666666666666,0.5,6,0.3684210526315789,0.2631578947368421,0.1111111111111111,0.2222222222222222,False,2086,singlePigLatin,"def singlePigLatin(s):
+	return s[len(s)-1] + s[0:len(s)-2] + 'ay'",False,5
+0.15625,4.0,0.0,0.4,5,0.65625,0.1875,0.1,0.3,True,1853,kthDigit,"def kthDigit(x, k):
+    answer = x % (10**k)
+    new = answer // (10**(k-1))
+    return new\",False,5
+0.17857142857142858,2.0,0.0,0.5,4,0.5714285714285714,0.25,0.09090909090909091,0.2727272727272727,False,1933,nearestBusStop,"def nearestBusStop(street):
+    if street % 8 >= 5:
+        return (street // 8) +1
+    else:
+        return (street//8)\",False,5
+0.42857142857142855,1.0,0.0,0.6666666666666666,3,0.42857142857142855,0.14285714285714285,0.08333333333333333,0.3333333333333333,False,1752,findRoot,"import math
+def findRoot(a,b,c):
+    quad = (-b + sqrt(b**2 - 4*a*c))/2*a
+    quad2 = (-b - sqrt(b**2 - 4*a*c))/2*a
+    if quad > quad2:
+        return quad
+    else:
+        return quad2",False,5
+0.13043478260869565,2.0,0.0,1.0,2,0.4782608695652174,0.391304347826087,0.07692307692307693,0.38461538461538464,False,1442,isPunctuation,"def isPunctuation(x):
+    if x == '!':
+        return 'Yes'
+    else: 
+        return 'No'",False,5
+0.5384615384615384,1.0,0.0,1.0,1,0.2923076923076923,0.16923076923076924,0.07142857142857142,0.42857142857142855,False,1436,helloWorld,"def helloWorld():
+    return helloWorld
+",True,5
+0.42105263157894735,2.0,0.5,0.5,0,0.3684210526315789,0.21052631578947367,0.06666666666666667,0.4666666666666667,False,1935,firstAndLast,"def firstAndLast(s):
+	return s[0] + s[len(s)]",True,5
+0.4,2.0,0.125,0.375,8,0.28,0.32,0.0625,0.5,False,3026,canDrinkAlcohol,"def canDrinkAlcohol(age, is_driving):
+	if age >= 21:
+	    return True
+	else:
+	    return False\",False,5
+0.5384615384615384,1.0,0.6,0.8,5,0.2923076923076923,0.16923076923076924,0.3333333333333333,0.3333333333333333,False,379,helloWorld,print('Hello World!'),True,5
+0.9482758620689655,1.0,0.6666666666666666,0.6666666666666666,3,0.017241379310344827,0.034482758620689655,0.0,1.0,True,393,doubleX,"def doubleX(x):
+    return (x*2)",True,5
+0.42857142857142855,1.0,0.0,0.0,1,0.42857142857142855,0.14285714285714285,0.3333333333333333,0.3333333333333333,True,419,findRoot,"import math
+
+def findRoot(a,b,c):
+    quadformnum1 = -b+math.sqrt(b**2-4*a*c)
+    quadformnum2 = -b-math.sqrt(b**2-4*a*c)
+    quadformden = 2*a
+    root1 = quadformnum1/quadformden
+    root2 = quadformnum2/quadformden
+    return max(root1,root2)",False,5
+0.8627450980392157,1.0,0.5,0.5,2,0.0784313725490196,0.058823529411764705,0.25,0.25,True,394,raiseToPower,"def raiseToPower(x, y):
+    return (x**y)",True,5
+0.19047619047619047,7.0,0.5,0.5,0,0.42857142857142855,0.38095238095238093,0.2,0.2,False,422,oneToN,"def oneToN(n):
+    return range(1,6)",False,5
+0.09523809523809523,4.0,0.7222222222222222,0.9444444444444444,18,0.42857142857142855,0.47619047619047616,0.3333333333333333,0.3333333333333333,True,2895,isEvenPositiveInt,"def isEvenPositiveInt(x):
+	return (type(x) == int and x > 0 and x % 2 == 0)",False,5
+0.3684210526315789,3.0,0.7058823529411765,0.9411764705882353,17,0.3684210526315789,0.2631578947368421,0.0,0.0,True,2906,singlePigLatin,"def singlePigLatin(s):
+	return s[1:] + s[0] + 'ay'",True,5
+0.19047619047619047,7.0,0.6875,0.9375,16,0.42857142857142855,0.38095238095238093,0.0,0.0,True,2899,oneToN,"def oneToN(n):
+    result = ''
+    for i in range(1, n+1):
+        result += str(i)
+    return result",False,5
+0.5384615384615384,1.0,0.6666666666666666,0.9333333333333333,15,0.2923076923076923,0.16923076923076924,0.0,0.0,True,1164,helloWorld,"def helloWorld():
+    return 'Hello World!'",True,5
+0.7142857142857143,1.0,0.6428571428571429,0.9285714285714286,14,0.14285714285714285,0.14285714285714285,0.0,0.0,True,2901,backwardsCombine,"def backwardsCombine(s1, s2):
+	return s2 + s1",True,5
+0.8627450980392157,1.0,0.6153846153846154,0.9230769230769231,13,0.0784313725490196,0.058823529411764705,0.0,0.0,True,1166,raiseToPower,"def raiseToPower(x, y):
+    return x**y",True,5
+0.4074074074074074,2.0,0.5833333333333334,0.9166666666666666,12,0.4444444444444444,0.14814814814814814,0.0,0.0,True,1168,hasTwoDigits,"def hasTwoDigits(x):
+	counter = 0
+	while x > 0:
+	    x = x//10
+	    counter += 1
+	return (counter == 2)",False,5
+0.8717948717948718,1.0,0.5,0.9,10,0.10256410256410256,0.02564102564102564,0.0,0.0,True,2885,intToFloat,"def intToFloat(x):
+	return float(x)",True,5
+0.13043478260869565,2.0,0.5555555555555556,0.8888888888888888,9,0.4782608695652174,0.391304347826087,0.0,0.0,False,1171,isPunctuation,"import string
+
+def isPunctuation(s):
+	return (s.punctuation())",False,5
+0.9482758620689655,1.0,0.5454545454545454,0.9090909090909091,11,0.017241379310344827,0.034482758620689655,0.0,0.1111111111111111,True,1165,doubleX,"def doubleX(x):
+    return 2*x",True,5
+0.17857142857142858,2.0,0.5714285714285714,0.8571428571428571,7,0.5714285714285714,0.25,0.0,0.1,False,2892,nearestBusStop,"def nearestBusStop(street):
+	if street%8 == 0: return street
+	else:
+	    return round(street/8)*8",False,5
+0.6296296296296297,1.0,0.5,0.875,8,0.14814814814814814,0.2222222222222222,0.0,0.18181818181818182,True,2894,overNineThousand,"def overNineThousand(powerLevel):
+	return (powerLevel > 9000)",True,5
+0.3404255319148936,2.0,1.0,1.0,1,0.5531914893617021,0.10638297872340426,0.0,0.16666666666666666,False,1167,convertToDegrees,"import math
+
+def convertToDegrees(x):
+    return (180 * x)/math.pi",False,5
+0.42857142857142855,1.0,0.3333333333333333,0.6666666666666666,3,0.42857142857142855,0.14285714285714285,0.07142857142857142,0.21428571428571427,True,2886,findRoot,"import math
+
+def findRoot(a, b, c):
+    discriminant = math.sqrt(b**2 - 4*a*c)
+    x1 = (-b - discriminant)/(2*a)
+    x2 = (-b + discriminant)/(2*a)
+    return max(x1, x2)",False,5
+0.42105263157894735,2.0,0.5,0.5,0,0.3684210526315789,0.21052631578947367,0.06666666666666667,0.2,True,2902,firstAndLast,"def firstAndLast(s):
+	return s[0] + s[-1]",True,5
+0.19444444444444445,3.0,0.6,0.8,5,0.6666666666666666,0.1388888888888889,0.0625,0.1875,True,2888,howManyEggCartons,"import math
+
+def howManyEggCartons(eggs):
+	return math.ceil(eggs/12)",False,5
+0.15625,4.0,0.6666666666666666,0.8333333333333334,6,0.65625,0.1875,0.058823529411764705,0.17647058823529413,False,2890,kthDigit,"def kthDigit(x, k):
+	return (x//10**k)%10",False,5
+0.75,1.0,0.5,0.75,4,0.2,0.05,0.05555555555555555,0.2222222222222222,True,2887,leftoverCandy,"def leftoverCandy(candyBars, friends):
+	return candyBars%friends",True,5
+0.3404255319148936,2.0,0.5,0.5,0,0.5531914893617021,0.10638297872340426,0.3333333333333333,0.3333333333333333,False,921,convertToDegrees,"import math 
+
+def convertToDegees(n):
+    degree= n/math.pi*180
+    return degree\",False,5
+0.75,1.0,0.4444444444444444,1.0,9,0.2,0.05,0.3333333333333333,0.3333333333333333,True,231,leftoverCandy,"def leftoverCandy(candyBars, friends):
+	return candyBars % friends",True,5
+0.8717948717948718,1.0,0.5384615384615384,1.0,13,0.10256410256410256,0.02564102564102564,0.0,0.0,True,227,intToFloat,"def intToFloat(x):
+	return x*1.0",True,5
+0.09523809523809523,4.0,0.5714285714285714,1.0,14,0.42857142857142855,0.47619047619047616,0.0,0.0,False,480,isEvenPositiveInt,"def isEvenPositiveInt(x):
+	if x % 2 == 0 and type(x) == int and x > 0:
+	    return True
+	else:
+	    return False",True,5
+0.19444444444444445,3.0,0.5833333333333334,1.0,12,0.6666666666666666,0.1388888888888889,0.0,0.3333333333333333,False,232,howManyEggCartons,"def howManyEggCartons(eggs):
+	return eggs // 12 + 1",False,5
+0.9482758620689655,1.0,0.5454545454545454,1.0,11,0.017241379310344827,0.034482758620689655,0.0,0.5,True,210,doubleX,"def doubleX(x):
+    return x*2",True,5
+0.5384615384615384,1.0,0.5,1.0,10,0.2923076923076923,0.16923076923076924,0.0,0.4,True,209,helloWorld,"def helloWorld():
+    return 'Hello World!'",True,5
+0.4,2.0,0.5,1.0,8,0.28,0.32,0.0,0.3333333333333333,False,478,canDrinkAlcohol,"def canDrinkAlcohol(age, isDriving):
+	return age > 20 and isDriving == True",True,5
+0.17857142857142858,2.0,1.0,1.0,1,0.5714285714285714,0.25,0.0,0.42857142857142855,False,256,nearestBusStop,"def nearestBusStop(street):
+    adder = street % 8
+    multiplier = street // 8
+    if adder <= 3:
+        return (multiplier * 8)
+    return (multiplier + 1) * 8",False,5
+0.8627450980392157,1.0,0.3333333333333333,1.0,6,0.0784313725490196,0.058823529411764705,0.0,0.5,True,215,raiseToPower,"def raiseToPower(x,y):
+    return x**y",True,5
+0.19047619047619047,7.0,0.4,1.0,5,0.42857142857142855,0.38095238095238093,0.0,0.4444444444444444,False,486,oneToN,"def oneToN(n):
+    value = ''
+    for num in range(1,n+1):
+        value += 'num'
+    return value\",False,5
+0.6296296296296297,1.0,0.25,1.0,4,0.14814814814814814,0.2222222222222222,0.0,0.5,True,470,overNineThousand,"def overNineThousand(powerLevel):
+	return powerLevel > 9000",True,5
+0.15625,4.0,0.3333333333333333,1.0,3,0.65625,0.1875,0.0,0.45454545454545453,False,249,kthDigit,"def kthDigit(x, k):
+	return (x // 10 ** k) % 10",False,5
+0.4074074074074074,2.0,0.5,1.0,2,0.4444444444444444,0.14814814814814814,0.0,0.5,False,471,hasTwoDigits,"def hasTwoDigits(x):
+	return x//(10**2) == 0",True,5
+0.42857142857142855,1.0,0.5,0.5,0,0.42857142857142855,0.14285714285714285,0.0,0.5384615384615384,True,225,findRoot,"def findRoot(a,b,c):
+    x1 = (-b + (b**2 - 4*a*c)**.5)/(2*a)
+    x2 = (-b - (b**2 - 4*a*c)**.5)/(2*a)
+    return max(x1,x2)",True,5
+0.3404255319148936,2.0,0.42857142857142855,1.0,7,0.5531914893617021,0.10638297872340426,0.0,0.5,True,218,convertToDegrees,"import math
+
+def convertToDegrees(x):
+    return math.degrees(x)",True,5
+0.75,1.0,0.75,1.0,8,0.2,0.05,0.3333333333333333,0.3333333333333333,True,707,leftoverCandy,"def leftoverCandy(candyBars, friends):
+	return candyBars%friends",True,5
+0.9482758620689655,1.0,0.7142857142857143,1.0,7,0.017241379310344827,0.034482758620689655,0.0,0.0,True,695,doubleX,"def doubleX(x):
+    return 2*x",True,5
+0.15625,4.0,0.8333333333333334,1.0,6,0.65625,0.1875,0.0,0.0,False,711,kthDigit,"def kthDigit(x, k):
+	return x%(10*k)",False,5
+0.8717948717948718,1.0,0.8,1.0,5,0.10256410256410256,0.02564102564102564,0.0,0.3333333333333333,True,706,intToFloat,"def intToFloat(x):
+	return float(x)",True,5
+0.3404255319148936,2.0,0.0,1.0,1,0.5531914893617021,0.10638297872340426,0.0,0.25,True,699,convertToDegrees,"import math
+
+def convertToDegrees(x):
+    return x*(180/math.pi)\",True,5
+0.19444444444444445,3.0,0.6666666666666666,1.0,3,0.6666666666666666,0.1388888888888889,0.0,0.2,True,708,howManyEggCartons,"def howManyEggCartons(eggs):
+	if eggs%12==0:
+	    return eggs//12
+	else:
+	    return eggs//12+1",True,5
+0.42857142857142855,1.0,0.5,1.0,2,0.42857142857142855,0.14285714285714285,0.0,0.16666666666666666,True,703,findRoot,"def findRoot(a,b,c):
+    root1=(-b+(b**2-4*a*c)**0.5)/(2*a)
+    root2=(-b-(b**2-4*a*c)**0.5)/(2*a)
+    return max(root1,root2)",True,5
+0.8627450980392157,1.0,0.75,1.0,4,0.0784313725490196,0.058823529411764705,0.2222222222222222,0.1111111111111111,True,697,raiseToPower,"def raiseToPower(x,y):
+    return x**y",True,5
+0.5384615384615384,1.0,0.5,0.5,0,0.2923076923076923,0.16923076923076924,0.3333333333333333,0.3333333333333333,False,914,helloWorld,print('Hello World!'),False,5
+0.3877551020408163,1.0,0.0,0.5,2,0.4897959183673469,0.12244897959183673,1.0,0.0,False,1192,convertToDegrees,"import math 
+def convertToDegrees(x):
+    return radians
+",False,6
+0.5230769230769231,1.0,0.0,0.5,4,0.3076923076923077,0.16923076923076924,0.75,0.25,False,1180,helloWorld,"'helloWorld'
+
+",True,6
+0.9655172413793104,1.0,0.0,0.6,5,0.0,0.034482758620689655,0.6,0.4,False,1186,doubleX,"def doubleX():
+    return x*2\",True,6
+0.3684210526315789,2.0,0.5,0.5,0,0.42105263157894735,0.21052631578947367,0.3333333333333333,0.3333333333333333,False,2465,singlePigLatin,"def singlePigLatin(s):
+    s = s - s[0]
+    return s + s[0] + 'ay'",False,6
+0.15,3.5,0.0,0.3333333333333333,3,0.45,0.4,0.6666666666666666,0.3333333333333333,False,2776,isEvenPositiveInt,"def isEvenPositiveInt(x):
+    if x > 0:
+        if x // x == 0:
+            if x % 2 == 0:
+                return True
+    else:
+	    return False",False,6
+0.8974358974358975,1.0,0.0,0.25,4,0.07692307692307693,0.02564102564102564,0.5,0.5,True,2459,intToFloat,"def intToFloat(x):
+    return float(x)
+",True,6
+0.7142857142857143,1.0,0.2,0.4,5,0.14285714285714285,0.14285714285714285,0.4,0.4,True,2460,backwardsCombine,"def backwardsCombine(s1, s2):
+	return s2 + s1\",True,6
+0.3684210526315789,2.0,0.3333333333333333,0.5,6,0.3684210526315789,0.2631578947368421,0.3333333333333333,0.3333333333333333,True,2461,firstAndLast,"def firstAndLast(s):
+	return s[0] + s[len(s) - 1]",True,6
+0.9655172413793104,1.0,0.42857142857142855,0.5714285714285714,7,0.0,0.034482758620689655,0.2857142857142857,0.2857142857142857,True,2454,doubleX,"def doubleX(x):
+    return 2 * x\",True,6
+0.5230769230769231,1.0,0.5,0.625,8,0.3076923076923077,0.16923076923076924,0.25,0.25,True,2451,helloWorld,"def helloWorld():
+    return 'Hello World!'
+",False,6
+0.1875,3.0,0.5,0.5,0,0.625,0.1875,0.3333333333333333,0.3333333333333333,False,1139,kthDigit,"def kthDigit(x, k):
+    
+	return",False,6
+0.8974358974358975,1.0,0.5,0.5,0,0.07692307692307693,0.02564102564102564,0.3333333333333333,0.3333333333333333,False,1152,intToFloat,"def intToFloat(x):
+    return x//1",True,6
+0.9038461538461539,1.0,0.0,0.0,1,0.07692307692307693,0.019230769230769232,0.0,1.0,True,1135,raiseToPower,"def raiseToPower(x,y):
+    return x**y",True,6
+0.9655172413793104,1.0,0.5,0.5,2,0.0,0.034482758620689655,0.0,0.5,True,1133,doubleX,"def doubleX(x):
+    return x*2",True,6
+0.08333333333333333,3.0,0.5,0.75,4,0.5,0.4166666666666667,0.25,0.25,False,1138,isPunctuation,"def isPunctuation():
+    return str",False,6
+0.7804878048780488,1.0,0.4,0.6,5,0.14634146341463414,0.07317073170731707,0.2,0.4,False,1153,leftoverCandy,"def leftoverCandy(candy_bars, friends):
+	return candy_bars - friends//candy_bars
+",True,6
+0.3877551020408163,1.0,0.3333333333333333,0.6666666666666666,6,0.4897959183673469,0.12244897959183673,0.16666666666666666,0.5,False,1136,convertToDegrees,"import math
+def convertToDegrees(x):
+    return degrees(x)",False,6
+0.15,3.5,0.5882352941176471,0.9411764705882353,17,0.45,0.4,0.3333333333333333,0.3333333333333333,True,860,isEvenPositiveInt,"def isEvenPositiveInt(x):
+    
+	return type(x) == int and x > 0 and x % 2 == 0",False,6
+0.4594594594594595,1.0,0.625,0.9375,16,0.40540540540540543,0.13513513513513514,0.0,0.0,False,835,findRoot,"import math
+
+def findRoot(a, b, c):
+    result1 = (-b + math.sqrt( (b ** 2) - (4 * a * c) )) / (2 * a)
+    result2 = (-b - math.sqrt( (b ** 2) - (4 * a * c) )) / (2 * a)
+    
+    return math.max(result1, result2)",True,6
+0.7142857142857143,1.0,0.6,0.9333333333333333,15,0.14285714285714285,0.14285714285714285,0.0,0.5,True,1680,backwardsCombine,"def backwardsCombine(s1, s2):
+	return (s2 + s1)",True,6
+0.3684210526315789,2.0,0.5714285714285714,0.9285714285714286,14,0.3684210526315789,0.2631578947368421,0.0,0.3333333333333333,True,1681,firstAndLast,"def firstAndLast(s):
+	return (s[0] + s[-1])",False,6
+0.24324324324324326,3.0,0.5384615384615384,0.9230769230769231,13,0.6216216216216216,0.13513513513513514,0.0,0.25,True,839,howManyEggCartons,"def howManyEggCartons(eggs):
+	cartons = eggs // 12
+	if (eggs % 12): cartons += 1
+	return cartons\",True,6
+0.3684210526315789,2.0,0.5,0.9166666666666666,12,0.42105263157894735,0.21052631578947367,0.0,0.2,True,3085,singlePigLatin,"def singlePigLatin(s):
+	return (s[1:] + s[0] + 'ay')",True,6
+0.37037037037037035,2.0,0.45454545454545453,0.9090909090909091,11,0.5185185185185185,0.1111111111111111,0.0,0.16666666666666666,True,853,hasTwoDigits,"def hasTwoDigits(x):
+	return x >= 10 and x <= 99",True,6
+0.5230769230769231,1.0,0.4,0.9,10,0.3076923076923077,0.16923076923076924,0.0,0.14285714285714285,True,829,helloWorld,"def helloWorld():
+    return 'Hello World!'",True,6
+0.9655172413793104,1.0,0.3333333333333333,0.8888888888888888,9,0.0,0.034482758620689655,0.0,0.125,True,830,doubleX,"def doubleX(x):
+    return x * 2",True,6
+0.08333333333333333,3.0,0.6111111111111112,0.9444444444444444,18,0.5,0.4166666666666667,0.0,0.1111111111111111,True,1682,isPunctuation,"import string
+def isPunctuation(s):
+	return (s in string.punctuation)",False,6
+0.21739130434782608,7.0,0.42857142857142855,0.8571428571428571,7,0.4782608695652174,0.30434782608695654,0.0,0.1,False,908,oneToN,"def oneToN(n):
+    for digit in range(1,n):
+        s += str(digit)
+    return s\",False,6
+0.6666666666666666,1.0,0.5,0.5,0,0.14814814814814814,0.18518518518518517,0.0,0.18181818181818182,True,852,overNineThousand,"def overNineThousand(powerLevel):
+	return powerLevel > 9000",True,6
+0.7804878048780488,1.0,1.0,1.0,1,0.14634146341463414,0.07317073170731707,0.0,0.16666666666666666,True,838,leftoverCandy,"def leftoverCandy(candyBars, friends):
+	return candyBars % friends",True,6
+0.3877551020408163,1.0,0.75,1.0,4,0.4897959183673469,0.12244897959183673,0.13333333333333333,0.13333333333333333,False,833,convertToDegrees,"import math
+
+def converToDegrees(x):
+    return math.degrees(x)",False,6
+0.1875,3.0,0.6,1.0,5,0.625,0.1875,0.125,0.1875,False,840,kthDigit,"def kthDigit(x, k):
+	n = x // k * 10
+	
+	return n",False,6
+0.8974358974358975,1.0,0.6666666666666666,1.0,3,0.07692307692307693,0.02564102564102564,0.16666666666666666,0.2222222222222222,True,837,intToFloat,"def intToFloat(x):
+	return float(x)",True,6
+0.5230769230769231,1.0,0.5,0.5,0,0.3076923076923077,0.16923076923076924,0.3333333333333333,0.3333333333333333,False,4,helloWorld,print('hello world!'),False,6
+0.5230769230769231,1.0,0.375,0.625,8,0.3076923076923077,0.16923076923076924,0.3333333333333333,0.3333333333333333,True,60,helloWorld,"def helloWorld():
+    return 'Hello World!'",False,6
+0.9655172413793104,1.0,0.2857142857142857,0.5714285714285714,7,0.0,0.034482758620689655,0.0,0.0,True,61,doubleX,"def doubleX(x):
+    return 2*x",True,6
+0.9038461538461539,1.0,0.16666666666666666,0.5,6,0.07692307692307693,0.019230769230769232,0.0,0.0,True,62,raiseToPower,"def raiseToPower(x,y):
+    return x**y",True,6
+0.8974358974358975,1.0,0.0,0.4,5,0.07692307692307693,0.02564102564102564,0.0,0.0,True,64,intToFloat,"def intToFloat(x):
+	return float(x)",True,6
+0.3877551020408163,1.0,0.0,0.5,4,0.4897959183673469,0.12244897959183673,0.0,0.0,False,63,convertToDegrees,"import math 
+def convertToDegrees(x):
+    return x/math.pi*180",False,6
+0.7804878048780488,1.0,0.0,0.0,1,0.14634146341463414,0.07317073170731707,0.0,0.2,False,66,leftoverCandy,"def leftoverCandy(candyBars, friends):
+	return candyBards%friends",True,6
+0.4594594594594595,1.0,0.5,0.5,0,0.40540540540540543,0.13513513513513514,0.0,0.3333333333333333,False,65,findRoot,"def findRoot(a,b,c):
+    return ((-1)*b+(b**2-4*a*c))/(2*a)",True,6
+0.24324324324324326,3.0,0.0,0.5,2,0.6216216216216216,0.13513513513513514,0.125,0.375,False,68,howManyEggCartons,"def howManyEggCartons(eggs):
+	return eggs+11//12",False,6
+0.6666666666666666,1.0,0.5,0.8333333333333334,6,0.14814814814814814,0.18518518518518517,0.3333333333333333,0.3333333333333333,True,75,overNineThousand,"def overNineThousand(powerLevel):
+	return (powerLevel >9000)",True,6
+0.9038461538461539,1.0,0.6363636363636364,0.9090909090909091,11,0.07692307692307693,0.019230769230769232,0.0,0.0,True,44,raiseToPower,"def raiseToPower(x, y):
+    return x**y",True,6
+0.37037037037037035,2.0,0.6,0.9,10,0.5185185185185185,0.1111111111111111,0.0,0.0,True,76,hasTwoDigits,"def hasTwoDigits(x):
+    total = 1
+    while (x//10 > 0):
+        total += 1
+        x = x//10
+    return (total == 2)",True,6
+0.1875,3.0,0.6666666666666666,0.8888888888888888,9,0.625,0.1875,0.0,0.0,False,71,kthDigit,"def kthDigit(x, k):
+	return (abs(n)//10**k)%10",False,6
+0.7804878048780488,1.0,0.625,0.875,8,0.14634146341463414,0.07317073170731707,0.0,0.25,True,53,leftoverCandy,"def leftoverCandy(candyBars, friends):
+	return candyBars%friends",True,6
+0.9655172413793104,1.0,0.5714285714285714,0.8571428571428571,7,0.0,0.034482758620689655,0.0,0.2,True,40,doubleX,"def doubleX(x):
+    return 2*x",True,6
+0.8974358974358975,1.0,0.4,0.8,5,0.07692307692307693,0.02564102564102564,0.0,0.16666666666666666,True,52,intToFloat,"def intToFloat(x):
+	return float(x)",True,6
+0.3877551020408163,1.0,0.6666666666666666,1.0,3,0.4897959183673469,0.12244897959183673,0.0,0.14285714285714285,False,45,convertToDegrees,"import math
+
+def convertToDegrees(x):
+    return x*180/math.pi",False,6
+0.4594594594594595,1.0,0.5,1.0,2,0.40540540540540543,0.13513513513513514,0.0,0.25,True,50,findRoot,"def findRoot(a, b, c):
+    root1 = (-b + (b**2 - 4*a*c)**0.5)/(2*a)
+    root2 = (-b - (b**2 - 4*a*c)**0.5)/(2*a)
+    return max(root1, root2)",True,6
+0.24324324324324326,3.0,1.0,1.0,1,0.6216216216216216,0.13513513513513514,0.0,0.2222222222222222,False,58,howManyEggCartons,"import math
+
+def howManyEggCartons(eggs):
+	return max.ceil(eggs/12)",False,6
+0.13333333333333333,2.0,0.5,0.5,0,0.6333333333333333,0.23333333333333334,0.0,0.3,True,74,nearestBusStop,"def nearestBusStop(street):
+	if (street%8 == 0):
+	    return street
+	elif (street%8 > 4):
+	    return street + 8 - street%8
+	else:
+	    return street - street%8",False,6
+0.5230769230769231,1.0,0.5,0.75,4,0.3076923076923077,0.16923076923076924,0.0,0.2727272727272727,False,34,helloWorld,"def f():
+    return 'Hello World!'",True,6
+0.5230769230769231,1.0,0.4375,0.9375,16,0.3076923076923077,0.16923076923076924,0.3333333333333333,0.3333333333333333,True,2442,helloWorld,"def helloWorld():
+    return ('Hello World!')",False,6
+0.3877551020408163,1.0,0.4,0.9333333333333333,15,0.4897959183673469,0.12244897959183673,0.0,0.0,True,2444,convertToDegrees,"import math
+def convertToDegrees(x):
+    return math.degrees(x)
+",False,6
+0.6666666666666666,1.0,0.35714285714285715,0.9285714285714286,14,0.14814814814814814,0.18518518518518517,0.0,0.0,True,2554,overNineThousand,"def overNineThousand(power_level):
+	return power_level>9000",True,6
+0.7142857142857143,1.0,0.3076923076923077,0.9230769230769231,13,0.14285714285714285,0.14285714285714285,0.0,0.0,True,2522,backwardsCombine,"def backwardsCombine(s1, s2):
+	return s2+s1",True,6
+0.24324324324324326,3.0,0.3333333333333333,0.9166666666666666,12,0.6216216216216216,0.13513513513513514,0.0,0.0,False,2470,howManyEggCartons,"def howManyEggCartons(eggs):
+	return math.ceil(eggs/12)",False,6
+0.9655172413793104,1.0,0.2727272727272727,0.9090909090909091,11,0.0,0.034482758620689655,0.0,0.2,True,2443,doubleX,"def doubleX(x):
+    return 2*x",True,6
+0.7804878048780488,1.0,0.2,0.9,10,0.14634146341463414,0.07317073170731707,0.0,0.16666666666666666,True,2464,leftoverCandy,"def leftoverCandy(candy_bars, friends):
+	return candy_bars%friends",True,6
+0.9038461538461539,1.0,0.1111111111111111,0.8888888888888888,9,0.07692307692307693,0.019230769230769232,0.0,0.14285714285714285,True,2441,raiseToPower,"def raiseToPower(x, y):
+    return x**y",True,6
+0.08333333333333333,3.0,0.16666666666666666,1.0,6,0.5,0.4166666666666667,0.0,0.125,False,2446,isPunctuation,"import string
+def isPunctuation(x):
+    return string.punctuation(x)",False,6
+0.1875,3.0,0.14285714285714285,1.0,7,0.625,0.1875,0.0,0.2222222222222222,False,2475,kthDigit,"def kthDigit(x, k):
+	return x%(10**k)",False,6
+0.38461538461538464,2.0,0.2,1.0,5,0.34615384615384615,0.2692307692307692,0.0,0.3,False,2596,canDrinkAlcohol,"def canDrinkAlcohol(age, is_driving):
+	return (age>is_driving)",True,6
+0.37037037037037035,2.0,0.25,1.0,4,0.5185185185185185,0.1111111111111111,0.0,0.36363636363636365,False,2556,hasTwoDigits,"def hasTwoDigits(x):
+	return (x//100==0)",True,6
+0.13333333333333333,2.0,0.5,1.0,2,0.6333333333333333,0.23333333333333334,0.07692307692307693,0.38461538461538464,False,2506,nearestBusStop,"import math
+def nearestBusStop(street):
+    if street%8>4:
+        return math.ceil(street/8)
+    else:
+        return street//8\",False,6
+0.4594594594594595,1.0,0.0,1.0,1,0.40540540540540543,0.13513513513513514,0.07142857142857142,0.42857142857142855,True,2462,findRoot,"def findRoot(a, b, c):
+    x1 = (-b+(b**2-4*a*c)**0.5)/(2*a)
+    x2 = (-b-(b**2-4*a*c)**0.5)/(2*a)
+    
+    if x1>x2: 
+        return x1
+    else: 
+        return x2",True,6
+0.8974358974358975,1.0,0.47058823529411764,0.9411764705882353,17,0.07692307692307693,0.02564102564102564,0.125,0.375,True,2463,intToFloat,"def intToFloat(x):
+    return float(x)",True,6
+0.3684210526315789,2.0,0.125,0.875,8,0.3684210526315789,0.2631578947368421,0.11764705882352941,0.35294117647058826,False,2523,firstAndLast,"def firstAndLast(s):
+	return",True,6
+0.15151515151515152,3.0,0.5333333333333333,0.7333333333333333,15,0.696969696969697,0.15151515151515152,1.0,0.0,False,2205,kthDigit,"def kthDigit(x, k):
+	return (x / 10) % 1",False,7
+0.3673469387755102,2.0,0.5384615384615384,0.7692307692307693,13,0.5510204081632653,0.08163265306122448,0.6666666666666666,0.3333333333333333,True,2162,convertToDegrees,"import math
+def convertToDegrees(x):
+    return math.degrees(x)",False,7
+0.7894736842105263,1.0,0.45454545454545453,0.7272727272727273,11,0.10526315789473684,0.10526315789473684,0.5,0.25,True,2954,backwardsCombine,"def backwardsCombine(s1, s2):
+	return s2 + s1",True,7
+0.9491525423728814,1.0,0.4444444444444444,0.6666666666666666,9,0.01694915254237288,0.03389830508474576,0.5,0.16666666666666666,True,1150,doubleX,"def doubleX(x):
+    return x*2",True,7
+0.2702702702702703,2.0,0.5,0.75,8,0.6486486486486487,0.08108108108108109,0.42857142857142855,0.14285714285714285,False,2202,howManyEggCartons,"def howManyEggCartons(eggs):
+	return eggs % 12",False,7
+0.7619047619047619,1.0,0.5,0.75,12,0.19047619047619047,0.047619047619047616,0.375,0.25,True,2201,leftoverCandy,"def leftoverCandy(candy_bars, friends):
+	return candy_bars % friends",True,7
+0.35294117647058826,3.0,0.5,0.8333333333333334,6,0.47058823529411764,0.17647058823529413,0.3333333333333333,0.2222222222222222,True,2957,singlePigLatin,"def singlePigLatin(s):
+	return s[1:] + s[0] + 'ay'",False,7
+0.8846153846153846,1.0,0.5,0.75,4,0.057692307692307696,0.057692307692307696,0.36363636363636365,0.18181818181818182,True,1151,raiseToPower,"def raiseToPower(x,y):
+    return x ** y",True,7
+0.13793103448275862,2.0,0.6666666666666666,0.6666666666666666,3,0.5862068965517241,0.27586206896551724,0.3333333333333333,0.16666666666666666,False,2948,nearestBusStop,"def nearestBusStop(street):
+	return street + (4 - street % 4)",False,7
+0.4594594594594595,1.0,0.5,0.5,2,0.40540540540540543,0.13513513513513514,0.3076923076923077,0.23076923076923078,True,2199,findRoot,"import math
+def findRoot(a, b, c):
+    first = (-b + math.sqrt(b**2 - (4 * a * c))) / (2 * a)
+    second = (-b - math.sqrt(b**2 - (4 * a * c))) / (2 * a)
+    if first >= second:
+        return first
+    else:
+        return second",True,7
+0.8780487804878049,1.0,0.0,0.0,1,0.0975609756097561,0.024390243902439025,0.2857142857142857,0.21428571428571427,True,2200,intToFloat,"def intToFloat(x):
+    return x / 1",True,7
+0.19047619047619047,8.0,0.2,0.7,10,0.5238095238095238,0.2857142857142857,0.3333333333333333,0.3333333333333333,False,2671,oneToN,"def oneToN(n):
+    w = ''
+    for i in range(1, len(n)+1):
+        w = w+str(i)
+    return w",False,7
+0.8780487804878049,1.0,0.47058823529411764,0.8235294117647058,17,0.0975609756097561,0.024390243902439025,0.0,1.0,True,2524,intToFloat,"def intToFloat(x):
+    return x/1",False,7
+0.5384615384615384,1.0,0.4375,0.8125,16,0.3230769230769231,0.13846153846153847,0.0,0.5,True,2501,helloWorld,"def helloWorld():
+    return 'Hello World!'",True,7
+0.8846153846153846,1.0,0.4,0.8,15,0.057692307692307696,0.057692307692307696,0.0,0.3333333333333333,True,2503,raiseToPower,"def raiseToPower(x, y):
+    return x**y",True,7
+0.7619047619047619,1.0,0.35714285714285715,0.7857142857142857,14,0.19047619047619047,0.047619047619047616,0.0,0.25,True,2539,leftoverCandy,"def leftoverCandy(candy_bars, friends):
+	return candy_bars%friends",True,7
+0.9491525423728814,1.0,0.3076923076923077,0.7692307692307693,13,0.01694915254237288,0.03389830508474576,0.0,0.2,True,2504,doubleX,"def doubleX(x): 
+    return x*2",True,7
+0.7894736842105263,1.0,0.25,0.75,12,0.10526315789473684,0.10526315789473684,0.0,0.16666666666666666,True,2630,backwardsCombine,"def backwardsCombine(s1, s2):
+	return s2+s1",True,7
+0.3888888888888889,2.0,0.18181818181818182,0.7272727272727273,11,0.4444444444444444,0.16666666666666666,0.0,0.14285714285714285,True,2634,firstAndLast,"def firstAndLast(s):
+	return s[0]+s[len(s)-1]",True,7
+0.4074074074074074,2.0,0.2222222222222222,0.6666666666666666,9,0.48148148148148145,0.1111111111111111,0.0,0.125,False,2644,hasTwoDigits,"def hasTwoDigits(x):
+	return x < 100",False,7
+0.13793103448275862,2.0,0.16666666666666666,0.5,6,0.5862068965517241,0.27586206896551724,0.18181818181818182,0.18181818181818182,False,2618,nearestBusStop,"def nearestBusStop(street):
+    nearest = street%8
+    if nearest <= 4:
+        return street-nearest
+    if nearest > 4:
+        return (street//8)+8",False,7
+0.6666666666666666,1.0,0.125,0.625,8,0.14814814814814814,0.18518518518518517,0.16666666666666666,0.25,True,2643,overNineThousand,"def overNineThousand(power_level):
+	return power_level > 9000",True,7
+0.34615384615384615,2.0,0.3333333333333333,0.6666666666666666,3,0.34615384615384615,0.3076923076923077,0.21428571428571427,0.21428571428571427,False,2646,canDrinkAlcohol,"def canDrinkAlcohol(age, is_driving):
+	return age >= 21 and is_driving==no",True,7
+0.4594594594594595,1.0,0.5,0.5,0,0.40540540540540543,0.13513513513513514,0.29411764705882354,0.23529411764705882,True,2517,findRoot,"def findRoot(a, b, c): 
+    import math
+    x = (-b + math.sqrt((b**2) - (4*a*c)))/(2*a)
+    y = (-b - math.sqrt((b**2) - (4*a*c)))/(2*a)
+    return max(x, y)",True,7
+0.13793103448275862,2.0,0.1875,0.8125,16,0.5862068965517241,0.27586206896551724,1.0,0.0,False,1306,nearestBusStop,"def nearestBusStop(street):
+    if street<=12:
+        nearestBusStop=8
+    for street in (13,street+1):
+        if street%8<=4:
+            nearestBusStop=(street//8)*8
+    return nearestBusStop",False,7
+0.18181818181818182,3.5,0.2,0.8,15,0.36363636363636365,0.45454545454545453,0.6666666666666666,0.3333333333333333,False,1289,isEvenPositiveInt,"def isEvenPositiveInt(x):
+    if x!=int:
+        return False
+    if x>0:
+        return True
+    else:
+        return False
+    if x%2==0:
+        return True
+    else:
+        return False",False,7
+0.9491525423728814,1.0,0.14285714285714285,0.7857142857142857,14,0.01694915254237288,0.03389830508474576,0.5,0.5,True,1219,doubleX,"def doubleX(x):
+    return x*2\",True,7
+0.4074074074074074,2.0,0.16666666666666666,0.75,12,0.48148148148148145,0.1111111111111111,0.5,0.3333333333333333,False,1285,hasTwoDigits,"def hasTwoDigits(x):
+    if x>=10:
+        return True",False,7
+0.6666666666666666,1.0,0.09090909090909091,0.7272727272727273,11,0.14814814814814814,0.18518518518518517,0.42857142857142855,0.42857142857142855,True,1284,overNineThousand,"def overNineThousand(power_level):
+    if power_level>9000:
+        return True
+    else:
+        return False",True,7
+0.8780487804878049,1.0,0.0,0.625,8,0.0975609756097561,0.024390243902439025,0.4444444444444444,0.3333333333333333,True,1254,intToFloat,"def intToFloat(x):
+    return x/1",False,7
+0.8846153846153846,1.0,0.5,0.5,0,0.057692307692307696,0.057692307692307696,0.4,0.3,False,1223,raiseToPower,"def raiseToPower(x,y):
+    return y^x
+",True,7
+0.5384615384615384,1.0,0.0,0.5,6,0.3230769230769231,0.13846153846153847,0.4166666666666667,0.3333333333333333,False,1214,helloWorld,"def hellow_world():
+    return('Hello World!')",True,7
+0.3673469387755102,2.0,0.0,0.5,4,0.5510204081632653,0.08163265306122448,0.42857142857142855,0.35714285714285715,False,1229,convertToDegrees,"def convertToDegrees(x):
+    return x*180",False,7
+0.4594594594594595,1.0,0.0,1.0,1,0.40540540540540543,0.13513513513513514,0.47058823529411764,0.35294117647058826,False,1252,findRoot,"def findRoot(a,b,c):
+    import math
+    x1=(-b+math.sqrt(b**2-4*a*c))/(2*a)
+    x2=(-b-math.sqrt(b**2-4*a*c))/(2*a)
+    if x1>x2:
+        return x1
+    else:
+        returnx2",False,7
+0.8846153846153846,1.0,0.2,0.2,5,0.057692307692307696,0.057692307692307696,0.3333333333333333,0.3333333333333333,True,1324,raiseToPower,"def raiseToPower(x, y):
+    return x**y",True,7
+0.9491525423728814,1.0,0.0,0.0,4,0.01694915254237288,0.03389830508474576,0.0,0.0,True,1323,doubleX,"def doubleX(x):
+    return x*2",True,7
+0.35294117647058826,3.0,0.0,0.0,3,0.47058823529411764,0.17647058823529413,0.0,0.0,False,2232,singlePigLatin,"def singlePigLatin(s):
+	return s + ay",False,7
+0.3673469387755102,2.0,0.0,0.0,1,0.5510204081632653,0.08163265306122448,0.25,0.25,False,1325,convertToDegrees,"import math 
+def convertToDegrees(x):
+    return",False,7
+0.7894736842105263,1.0,0.5,0.5,0,0.10526315789473684,0.10526315789473684,0.2,0.4,False,2228,backwardsCombine,"def backwardsCombine(s1, s2):
+	returnS2+S1\",True,7
+0.09523809523809523,3.0,0.0,0.0,2,0.6190476190476191,0.2857142857142857,0.16666666666666666,0.5,False,1330,isPunctuation,,False,7
+0.8846153846153846,1.0,0.5,0.75,4,0.057692307692307696,0.057692307692307696,1.0,0.0,True,2757,raiseToPower,"def raiseToPower(x,y):
+    return x**y",True,7
+0.5384615384615384,1.0,0.5,0.5,0,0.3230769230769231,0.13846153846153847,0.6666666666666666,0.0,True,2754,helloWorld,"def helloWorld():
+    return 'Hello World!'",True,7
+0.9491525423728814,1.0,1.0,1.0,1,0.01694915254237288,0.03389830508474576,0.5,0.0,True,2756,doubleX,"def doubleX(x):
+    return x*2",True,7
+0.5384615384615384,1.0,0.5,0.5,0,0.3230769230769231,0.13846153846153847,0.3333333333333333,0.3333333333333333,True,490,helloWorld,"def helloWorld():
+    return 'Hello World!'
+",False,7
+0.9491525423728814,1.0,0.7,0.9,10,0.01694915254237288,0.03389830508474576,0.3333333333333333,0.3333333333333333,True,599,doubleX,"def doubleX(x):
+    return x*2",True,7
+0.7894736842105263,1.0,0.8125,0.9375,16,0.10526315789473684,0.10526315789473684,0.0,0.0,True,816,backwardsCombine,"def backwardsCombine(s1, s2):
+	return s2+s1",True,7
+0.8846153846153846,1.0,0.8,0.9333333333333333,15,0.057692307692307696,0.057692307692307696,0.0,0.0,True,600,raiseToPower,"def raiseToPower(x,y):
+    return x**y",True,7
+0.8780487804878049,1.0,0.7857142857142857,0.9285714285714286,14,0.0975609756097561,0.024390243902439025,0.0,0.0,True,604,intToFloat,"def intToFloat(x):
+	return float(x)",True,7
+0.7619047619047619,1.0,0.7692307692307693,0.9230769230769231,13,0.19047619047619047,0.047619047619047616,0.0,0.0,True,794,leftoverCandy,"def leftoverCandy(candyBars, friends):
+	return candyBars % friends",True,7
+0.3673469387755102,2.0,0.75,0.9166666666666666,12,0.5510204081632653,0.08163265306122448,0.0,0.0,True,601,convertToDegrees,"import math
+
+def convertToDegrees(x):
+    return math.degrees(x)",False,7
+0.6666666666666666,1.0,0.7272727272727273,0.9090909090909091,11,0.14814814814814814,0.18518518518518517,0.0,0.0,True,798,overNineThousand,"def overNineThousand(powerLevel):
+	return powerLevel > 9000",False,7
+0.4594594594594595,1.0,0.7777777777777778,1.0,9,0.40540540540540543,0.13513513513513514,0.0,0.0,False,602,findRoot,"import math
+
+def findRoot(a,b,c):
+    return ((-b)+ math.sqrt((b**2) - 4*a*c))/(2*a)",False,7
+0.5384615384615384,1.0,0.8235294117647058,0.9411764705882353,17,0.3230769230769231,0.13846153846153847,0.0,0.125,False,590,helloWorld,"def helloWorld():
+    print('Hello World!')
+
+",False,7
+0.2702702702702703,2.0,0.8571428571428571,1.0,7,0.6486486486486487,0.08108108108108109,0.0,0.2222222222222222,False,795,howManyEggCartons,"def howManyEggCartons(eggs):
+	return (eggs//12)+1",False,7
+0.15151515151515152,3.0,0.8333333333333334,1.0,6,0.696969696969697,0.15151515151515152,0.0,0.3,True,797,kthDigit,"def kthDigit(x, k):
+    if x%(10**(k-1)) == x:
+        return 0
+    else:
+	    return (x%(10**k))//(10**(k-1))",False,7
+0.13793103448275862,2.0,0.8,1.0,5,0.5862068965517241,0.27586206896551724,0.0,0.2727272727272727,True,799,nearestBusStop,"def nearestBusStop(street):
+    lower = (street//8)*8
+    upper = ((street//8)+1)*8
+    if upper-street < street-lower:
+        return upper
+    else:
+	    return lower",False,7
+0.34615384615384615,2.0,0.75,1.0,4,0.34615384615384615,0.3076923076923077,0.0,0.25,True,801,canDrinkAlcohol,"def canDrinkAlcohol(age, isDriving):
+	return (age >= 21) and not isDriving",False,7
+0.18181818181818182,3.5,1.0,1.0,3,0.36363636363636365,0.45454545454545453,0.0,0.23076923076923078,False,802,isEvenPositiveInt,"def isEvenPositiveInt(x):
+	return (x > 0) and not x%2",False,7
+0.19047619047619047,8.0,1.0,1.0,2,0.5238095238095238,0.2857142857142857,0.0,0.2857142857142857,True,808,oneToN,"def oneToN(n):
+    string = ''
+    for m in range(1,n+1):
+        string += str(m)
+    return string",False,7
+0.3888888888888889,2.0,1.0,1.0,1,0.4444444444444444,0.16666666666666666,0.0,0.26666666666666666,True,817,firstAndLast,"def firstAndLast(s):
+	return s[0]+s[-1]",True,7
+0.09523809523809523,3.0,0.5,0.5,0,0.6190476190476191,0.2857142857142857,0.0,0.25,True,818,isPunctuation,"import string
+
+def isPunctuation(s):
+	return s in string.punctuation",False,7
+0.4074074074074074,2.0,0.75,1.0,8,0.48148148148148145,0.1111111111111111,0.0,0.23529411764705882,True,800,hasTwoDigits,"def hasTwoDigits(x):
+	return 9 < x < 100",True,7
+0.35294117647058826,3.0,0.7777777777777778,0.9444444444444444,18,0.47058823529411764,0.17647058823529413,0.0,0.2222222222222222,True,820,singlePigLatin,"def singlePigLatin(s):
+	return s[1:]+s[0]+'ay'",False,7
+0.5223880597014925,1.0,0.5,0.5,0,0.31343283582089554,0.16417910447761194,0.3333333333333333,0.3333333333333333,True,3105,helloWorld,"def helloWorld():
+    return 'Hello World!'",False,8
+0.8679245283018868,1.0,1.0,1.0,1,0.07547169811320754,0.05660377358490566,0.0,0.0,True,3108,raiseToPower,"def raiseToPower(x, y):
+    return x**y",True,8
+0.9491525423728814,1.0,1.0,1.0,2,0.01694915254237288,0.03389830508474576,0.0,0.0,True,3107,doubleX,"def doubleX(x):
+    return 2*x",True,8
+0.9491525423728814,1.0,0.0,1.0,1,0.01694915254237288,0.03389830508474576,1.0,0.0,True,118,doubleX,"def doubleX(x):
+    return 2*x",True,8
+0.9491525423728814,1.0,0.6111111111111112,0.9444444444444444,18,0.01694915254237288,0.03389830508474576,0.3333333333333333,0.3333333333333333,True,977,doubleX,"def doubleX(x):
+    return x*2",True,8
+0.8679245283018868,1.0,0.5882352941176471,0.9411764705882353,17,0.07547169811320754,0.05660377358490566,0.0,0.0,True,978,raiseToPower,"def raiseToPower(x,y):
+    return x**y",True,8
+0.7391304347826086,1.0,0.6,0.9333333333333333,15,0.13043478260869565,0.13043478260869565,0.0,0.0,True,1029,backwardsCombine,"def backwardsCombine(s1, s2):
+	return s2 + s1",True,8
+0.75,1.0,0.5714285714285714,0.9285714285714286,14,0.18181818181818182,0.06818181818181818,0.0,0.0,True,981,leftoverCandy,"def leftoverCandy(candyBars, friends):
+	return candyBars%friends",True,8
+0.6666666666666666,1.0,0.5384615384615384,0.9230769230769231,13,0.13333333333333333,0.2,0.0,0.0,True,987,overNineThousand,"def overNineThousand(powerLevel):
+	if (powerLevel > 9000):
+	    return True
+	else:
+	    return False",True,8
+0.3,3.0,0.5,0.9166666666666666,12,0.45,0.25,0.0,0.0,True,1055,singlePigLatin,"def singlePigLatin(s):
+	s = s[1:] + s[0] + 'ay'
+	return s",False,8
+0.11538461538461539,2.5,0.5454545454545454,0.9090909090909091,11,0.5,0.38461538461538464,0.0,0.0,False,1041,isPunctuation,"import string
+def isPunctuation(s):
+	return s in string.punctuation()",False,8
+0.42857142857142855,2.0,0.6,0.9,10,0.3333333333333333,0.23809523809523808,0.0,0.14285714285714285,False,1037,firstAndLast,"import string
+def firstAndLast(s):
+	return s.beginswith() + s.endswith()",True,8
+0.20833333333333334,7.0,0.6666666666666666,0.8888888888888888,9,0.4583333333333333,0.3333333333333333,0.0,0.25,False,1002,oneToN,"def oneToN(n):
+    return str(range(1,n+1))",False,8
+0.5223880597014925,1.0,0.625,0.9375,16,0.31343283582089554,0.16417910447761194,0.0,0.3333333333333333,False,974,helloWorld,print('Hello World!'),True,8
+0.3333333333333333,3.0,0.8571428571428571,1.0,7,0.3333333333333333,0.3333333333333333,0.0,0.4,False,989,canDrinkAlcohol,"def canDrinkAlcohol(age, isDriving):
+	return isDriving == True and age >= 21",True,8
+0.8837209302325582,1.0,0.8333333333333334,1.0,6,0.09302325581395349,0.023255813953488372,0.0,0.45454545454545453,True,982,intToFloat,"def intToFloat(x):
+	return x*1.0",True,8
+0.36666666666666664,2.0,0.8,1.0,5,0.5,0.13333333333333333,0.0,0.4166666666666667,True,988,hasTwoDigits,"def hasTwoDigits(x):
+	return x >= 10 and x < 100",True,8
+0.12903225806451613,2.0,0.75,1.0,4,0.6451612903225806,0.22580645161290322,0.0,0.38461538461538464,True,986,nearestBusStop,"def nearestBusStop(street):
+
+    x = street%8 
+
+    if (x <= 4):
+
+        return (street - x)
+
+    else: 
+
+        return (street - x + 8)",False,8
+0.14285714285714285,3.0,0.6666666666666666,1.0,3,0.6571428571428571,0.2,0.0,0.35714285714285715,True,985,kthDigit,"def kthDigit(x, k):
+	digit = x%(10**k)//(10**(k-1))
+	return digit",False,8
+0.2564102564102564,3.0,1.0,1.0,2,0.6153846153846154,0.1282051282051282,0.0,0.3333333333333333,False,983,howManyEggCartons,"def howManyEggCartons(eggs):
+	return eggs//12 + 1",False,8
+0.17391304347826086,3.0,0.75,1.0,8,0.391304347826087,0.43478260869565216,0.0,0.375,False,991,isEvenPositiveInt,"def isEvenPositiveInt(x):
+    if x > 0 and x is int and x%2 == 0:
+        return True
+    else:
+        return False",True,8
+0.42105263157894735,1.0,1.0,1.0,1,0.4473684210526316,0.13157894736842105,0.0,0.4117647058823529,True,980,findRoot,"def findRoot(a, b, c):
+    dis = (b**2 - 4*a*c)**0.5
+    num1 = -b + dis
+    num2 = -b - dis
+    denom = 2*a
+    root1 = num1/denom
+    root2 = num2/denom
+    if (root1 >= root2):
+        return root1
+    else: 
+        return root2",True,8
+0.3269230769230769,2.0,0.5,0.5,0,0.5576923076923077,0.11538461538461539,0.0,0.3888888888888889,True,979,convertToDegrees,"import math
+
+def convertToDegrees(x):
+    return math.degrees(x)
+",False,8
+0.3333333333333333,3.0,0.5,0.5,0,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333,True,3031,canDrinkAlcohol,"def canDrinkAlcohol(age, isDriving):
+	if age>=21 and isDriving==False:
+	    return True
+	else: return False",False,8
+0.8679245283018868,1.0,1.0,1.0,3,0.07547169811320754,0.05660377358490566,0.3333333333333333,0.3333333333333333,True,2964,raiseToPower,"def raiseToPower(x, y):
+    return x**y",True,8
+0.9491525423728814,1.0,1.0,1.0,2,0.01694915254237288,0.03389830508474576,0.0,0.0,True,2963,doubleX,"def doubleX(x):
+    return 2*x",True,8
+0.5223880597014925,1.0,1.0,1.0,4,0.31343283582089554,0.16417910447761194,0.0,0.0,True,2961,helloWorld,"def helloWorld():
+    return 'Hello World!'",True,8
+0.42105263157894735,1.0,0.5,0.5,0,0.4473684210526316,0.13157894736842105,0.0,0.0,True,2966,findRoot,"def findRoot(a,b,c):
+    x1 = (-b+(b**2-4*a*c)**0.5)/(2*a)
+    x2 = (-b-(b**2-4*a*c)**0.5)/(2*a)
+    if (x1>x2):
+        return x1
+    else:
+        return x2",False,8
+0.3269230769230769,2.0,1.0,1.0,1,0.5576923076923077,0.11538461538461539,0.0,0.0,True,2965,convertToDegrees,"import math
+def convertToDegrees(x):
+    return x*(360/(2*math.pi))",False,8
+0.3,3.0,0.5,0.5,0,0.45,0.25,0.3333333333333333,0.3333333333333333,True,1366,singlePigLatin,"def singlePigLatin(s):
+	return s[1:] + s[0] + 'ay'",False,8
+0.5223880597014925,1.0,1.0,1.0,1,0.31343283582089554,0.16417910447761194,0.0,0.0,False,465,helloWorld,print('Hello World!'),True,8
+0.8679245283018868,1.0,0.5,1.0,2,0.07547169811320754,0.05660377358490566,0.0,0.5,True,1364,raiseToPower,"def raiseToPower(x,y):
+    return x**y",True,8
+0.9491525423728814,1.0,0.6666666666666666,1.0,3,0.01694915254237288,0.03389830508474576,0.0,0.3333333333333333,True,469,doubleX,"def doubleX(x):
+    return x*2",True,8
+0.9491525423728814,1.0,0.75,1.0,8,0.01694915254237288,0.03389830508474576,0.3333333333333333,0.3333333333333333,True,2968,doubleX,"def doubleX(x):
+    return x*2",True,8
+0.42105263157894735,1.0,0.5,0.5,0,0.4473684210526316,0.13157894736842105,0.0,0.0,True,2972,findRoot,"def findRoot(a, b, c):
+    x1 = (-b + (b**2 - 4*a*c)**0.5)/(2*a)
+    x2 = (-b - (b**2 - 4*a*c)**0.5)/(2*a)
+    return max(x1, x2)",False,8
+0.5223880597014925,1.0,1.0,1.0,1,0.31343283582089554,0.16417910447761194,0.0,0.0,True,2967,helloWorld,"def helloWorld():
+    return 'Hello World!'",True,8
+0.75,1.0,1.0,1.0,2,0.18181818181818182,0.06818181818181818,0.0,0.0,True,2973,leftoverCandy,"def leftoverCandy(candyBars, friends):
+	return candyBars % friends
+	",True,8
+0.3269230769230769,2.0,1.0,1.0,3,0.5576923076923077,0.11538461538461539,0.0,0.0,True,2970,convertToDegrees,"import math
+
+def convertToDegrees(x):
+    return math.degrees(x)",False,8
+0.8679245283018868,1.0,1.0,1.0,4,0.07547169811320754,0.05660377358490566,0.0,0.0,True,2969,raiseToPower,"def raiseToPower(x, y):
+    return x**y",True,8
+0.2564102564102564,3.0,1.0,1.0,5,0.6153846153846154,0.1282051282051282,0.0,0.0,False,2974,howManyEggCartons,"def howManyEggCartons(eggs):
+	return eggs // 12 + 1",False,8
+0.14285714285714285,3.0,0.8333333333333334,1.0,6,0.6571428571428571,0.2,0.0,0.14285714285714285,False,2976,kthDigit,"def kthDigit(x, k):
+	return (x // 10**k) % 10",False,8
+0.8837209302325582,1.0,0.7142857142857143,1.0,7,0.09302325581395349,0.023255813953488372,0.0,0.25,True,2971,intToFloat,"def intToFloat(x):
+	return float(x)",True,8
+0.95,1.0,0.4444444444444444,0.6666666666666666,9,0.016666666666666666,0.03333333333333333,0.3333333333333333,0.3333333333333333,True,2157,doubleX,"def doubleX(x):
+    return 2*x",True,9
+0.5230769230769231,1.0,0.375,0.625,8,0.2923076923076923,0.18461538461538463,0.0,0.0,True,2156,helloWorld,"def helloWorld():
+    return 'Hello World!'",True,9
+0.32,3.0,0.3333333333333333,0.5,6,0.36,0.32,0.0,0.0,False,2690,canDrinkAlcohol,"def canDrinkAlcohol(age, is_driving):
+    if is_driving == 'yes':
+        return No
+    elif age>=21:
+        return Yes
+    else:
+        return No",True,9
+0.45,2.0,0.4,0.6,5,0.3,0.25,0.0,0.3333333333333333,False,2686,firstAndLast,"def firstAndLast(s):
+	return strings.index(0)+strings.index(len(s))",True,9
+0.8867924528301887,1.0,0.2857142857142857,0.5714285714285714,7,0.05660377358490566,0.05660377358490566,0.0,0.5,True,2158,raiseToPower,"def raiseToPower(x, y):
+    return x**y",True,9
+0.7272727272727273,1.0,0.3333333333333333,0.3333333333333333,3,0.13636363636363635,0.13636363636363635,0.0,0.4,True,2685,backwardsCombine,"def backwardsCombine(s1, s2):
+	return s2+s1",True,9
+0.22727272727272727,7.0,0.5,0.5,2,0.4090909090909091,0.36363636363636365,0.0,0.3333333333333333,False,2695,oneToN,"def oneToN(n):
+    for i in range(0,n+1):
+        i='i'
+    return i",False,9
+0.34,2.0,1.0,1.0,1,0.54,0.12,0.0,0.42857142857142855,False,2159,convertToDegrees,"import math
+
+def convertToDegrees(x):
+    return degrees(x)",False,9
+0.875,1.0,0.5,0.5,0,0.1,0.025,0.0,0.5,True,2682,intToFloat,"def intToFloat(x):
+    return x/1",True,9
+0.7804878048780488,1.0,0.5,0.5,4,0.14634146341463414,0.07317073170731707,0.0,0.4444444444444444,False,2683,leftoverCandy,"def leftoverCandy(candy_bars, friends):
+	return candy_bars/friends",True,9
+0.37037037037037035,2.0,0.5714285714285714,1.0,7,0.48148148148148145,0.14814814814814814,0.3333333333333333,0.3333333333333333,False,462,hasTwoDigits,"def hasTwoDigits(x):
+	return 42",True,9
+0.95,1.0,0.45454545454545453,0.9090909090909091,11,0.016666666666666666,0.03333333333333333,0.0,1.0,True,417,doubleX,"def doubleX(x):
+    return x*2",True,9
+0.21621621621621623,3.0,0.5,0.9,10,0.6486486486486487,0.13513513513513514,0.0,0.5,False,437,howManyEggCartons,"def howManyEggCartons(eggs):
+	return eggs // 12 + 1",False,9
+0.875,1.0,0.5,1.0,8,0.1,0.025,0.25,0.5,True,433,intToFloat,"def intToFloat(x):
+	return x*1.0",True,9
+0.6666666666666666,1.0,0.5,1.0,6,0.1111111111111111,0.2222222222222222,0.2,0.4,True,461,overNineThousand,"def overNineThousand(powerLevel):
+	if (powerLevel > 9000):
+	    return True
+	else:
+	    return False\",True,9
+0.8867924528301887,1.0,0.5,1.0,4,0.05660377358490566,0.05660377358490566,0.16666666666666666,0.3333333333333333,False,420,raiseToPower,"def raiseToPower(x, y):
+    returnx**y
+",True,9
+0.13793103448275862,2.0,0.3333333333333333,1.0,3,0.5862068965517241,0.27586206896551724,0.14285714285714285,0.42857142857142855,True,460,nearestBusStop,"def nearestBusStop(street):
+	if (street % 8 <= 4):
+	    return street - street % 8
+	else:
+	    return street + (8 - street % 8)",False,9
+0.12121212121212122,3.0,0.0,1.0,2,0.6666666666666666,0.21212121212121213,0.125,0.375,True,458,kthDigit,"def kthDigit(x, k):
+	return int(x * 10 / 10**k) % 10",False,9
+0.34,2.0,0.0,1.0,1,0.54,0.12,0.1111111111111111,0.3333333333333333,False,423,convertToDegrees,"import math
+def convertToDegrees(x):
+    return degrees(x)
+",True,9
+0.7804878048780488,1.0,0.5,0.5,0,0.14634146341463414,0.07317073170731707,0.1,0.4,False,435,leftoverCandy,"def leftoverCandy(candyBars, friends):
+	return candybars % friends",True,9
+0.5230769230769231,1.0,0.4,1.0,5,0.2923076923076923,0.18461538461538463,0.09090909090909091,0.45454545454545453,True,416,helloWorld,"def helloWorld():
+    return ('Hello World!')",True,9
+0.5230769230769231,1.0,0.5,0.5,0,0.2923076923076923,0.18461538461538463,0.3333333333333333,0.3333333333333333,False,1197,helloWorld,"print ('Hello World!')
+",False,9
+0.95,1.0,0.5,0.9,10,0.016666666666666666,0.03333333333333333,0.3333333333333333,0.3333333333333333,True,191,doubleX,"def doubleX(x):
+    return 2*x",True,9
+0.875,1.0,0.6470588235294118,0.9411764705882353,17,0.1,0.025,0.0,0.0,True,219,intToFloat,"def intToFloat(x):
+	return float(x)",True,9
+0.34,2.0,0.625,0.9375,16,0.54,0.12,0.0,0.0,True,203,convertToDegrees,"import math
+
+def convertToDegrees(x):
+    return math.degrees(x)",False,9
+0.7804878048780488,1.0,0.6,0.9333333333333333,15,0.14634146341463414,0.07317073170731707,0.0,0.0,True,226,leftoverCandy,"def leftoverCandy(candyBars, friends):
+	return candyBars%friends",True,9
+0.12121212121212122,3.0,0.5714285714285714,0.9285714285714286,14,0.6666666666666666,0.21212121212121213,0.0,0.0,True,243,kthDigit,"def kthDigit(x, k):
+	return (x // 10**(k-1)) % 10",False,9
+0.7272727272727273,1.0,0.5384615384615384,0.9230769230769231,13,0.13636363636363635,0.13636363636363635,0.0,0.0,True,535,backwardsCombine,"def backwardsCombine(s1, s2):
+	return s2+s1",True,9
+0.6666666666666666,1.0,0.5833333333333334,0.9166666666666666,12,0.1111111111111111,0.2222222222222222,0.0,0.0,False,334,overNineThousand,"def overNineThousand(powerLevel):
+	return powerlevel > 9000",True,9
+0.5230769230769231,1.0,0.4444444444444444,0.8888888888888888,9,0.2923076923076923,0.18461538461538463,0.0,0.14285714285714285,True,187,helloWorld,"def helloWorld():
+    return 'Hello World!'",True,9
+0.8867924528301887,1.0,0.5454545454545454,0.9090909090909091,11,0.05660377358490566,0.05660377358490566,0.0,0.125,True,193,raiseToPower,"def raiseToPower(x,y):
+    return x**y",True,9
+0.4864864864864865,1.0,0.42857142857142855,0.8571428571428571,7,0.40540540540540543,0.10810810810810811,0.0,0.1111111111111111,False,206,findRoot,"def findRoot(a,b,c):
+    x = max(-b+(b**2-4*a*c)**0.5)/(2*a)
+    return x",True,9
+0.13793103448275862,2.0,0.5,0.8333333333333334,6,0.5862068965517241,0.27586206896551724,0.0,0.2,False,308,nearestBusStop,"def nearestBusStop(street):
+	return (street - street//8)",False,9
+0.37037037037037035,2.0,0.4,0.8,5,0.48148148148148145,0.14814814814814814,0.0,0.2727272727272727,True,339,hasTwoDigits,"def hasTwoDigits(x):
+	return (x//10 > 0) and (x//10 < 10)",False,9
+0.32,3.0,0.25,0.75,4,0.36,0.32,0.0,0.25,True,344,canDrinkAlcohol,"def canDrinkAlcohol(age, isDriving):
+	return age >= 21 and not isDriving",False,9
+0.13636363636363635,4.0,0.0,0.6666666666666666,3,0.4090909090909091,0.45454545454545453,0.0,0.23076923076923078,True,357,isEvenPositiveInt,"def isEvenPositiveInt(x):
+	return (type(x)==int) and (x>0) and (x%2==0)",False,9
+0.22727272727272727,7.0,0.0,0.5,2,0.4090909090909091,0.36363636363636365,0.0,0.21428571428571427,False,371,oneToN,"def oneToN(n):
+    for i in range(1,n+1):
+        print(i, end = '', sep = '')
+    return None",False,9
+0.45,2.0,0.0,0.0,1,0.3,0.25,0.0,0.26666666666666666,False,536,firstAndLast,"def firstAndLast(s):
+	return s[1]+s[len(s)-1]",True,9
+0.11538461538461539,2.5,0.5,0.5,0,0.5,0.38461538461538464,0.0,0.3125,False,542,isPunctuation,"import string
+
+def isPunctuation(s):
+	return s.punctuation",False,9
+0.21621621621621623,3.0,0.375,0.875,8,0.6486486486486487,0.13513513513513514,0.0,0.35294117647058826,True,238,howManyEggCartons,"import math
+
+def howManyEggCartons(eggs):
+	return math.ceil(eggs/12)",False,9
+0.5230769230769231,1.0,0.5714285714285714,0.8571428571428571,14,0.2923076923076923,0.18461538461538463,0.3333333333333333,0.3333333333333333,True,547,helloWorld,"def helloWorld():
+    return 'Hello World!'",False,9
+0.6666666666666666,1.0,0.5384615384615384,0.8461538461538461,13,0.1111111111111111,0.2222222222222222,0.0,0.0,True,580,overNineThousand,"def overNineThousand(powerLevel):
+	return powerLevel > 9000",True,9
+0.34,2.0,0.5,0.8333333333333334,12,0.54,0.12,0.0,0.0,True,550,convertToDegrees,"import math
+
+def convertToDegrees(x):
+    return math.degrees(x)",False,9
+0.7804878048780488,1.0,0.45454545454545453,0.8181818181818182,11,0.14634146341463414,0.07317073170731707,0.0,0.0,True,553,leftoverCandy,"def leftoverCandy(candyBars, friends):
+	return candyBars % friends",True,9
+0.875,1.0,0.4,0.8,10,0.1,0.025,0.0,0.0,True,552,intToFloat,"def intToFloat(x):
+	return float(x)",True,9
+0.4864864864864865,1.0,0.375,0.875,8,0.40540540540540543,0.10810810810810811,0.0,0.0,False,551,findRoot,"def findRoot(a, b, c):
+    discriminant = (b ** 2 - 4 * a * c)
+    if discriminant < 0:
+        return 0
+    return ((-b) + (discriminant) ** 0.5) / (2 * a)",False,9
+0.21621621621621623,3.0,0.2857142857142857,0.8571428571428571,7,0.6486486486486487,0.13513513513513514,0.0,0.16666666666666666,True,554,howManyEggCartons,"import math
+
+def howManyEggCartons(eggs):
+	cartons = eggs / 12
+	return math.ceil(cartons)",False,9
+0.95,1.0,0.3333333333333333,0.7777777777777778,9,0.016666666666666666,0.03333333333333333,0.0,0.14285714285714285,True,548,doubleX,"def doubleX(x):
+    return (x * 2)",True,9
+0.13793103448275862,2.0,0.4,0.8,5,0.5862068965517241,0.27586206896551724,0.0,0.125,False,564,nearestBusStop,"def nearestBusStop(street):
+	if (street % 8) <= 4:
+	    return (street % 10 - 1) * 8
+	else:
+	    return (street % 10 + 1) * 8",False,9
+0.37037037037037035,2.0,0.5,0.75,4,0.48148148148148145,0.14814814814814814,0.0,0.2222222222222222,False,581,hasTwoDigits,"def hasTwoDigits(x):
+	if (0 < x // 100 % 10 < 10):
+	    return True
+	else: return",False,9
+0.32,3.0,0.3333333333333333,0.6666666666666666,3,0.36,0.32,0.0,0.3,True,588,canDrinkAlcohol,"def canDrinkAlcohol(age, isDriving):
+	if (age < 21 or isDriving):
+	    return False
+	else: return True",False,9
+0.13636363636363635,4.0,0.5,0.5,2,0.4090909090909091,0.45454545454545453,0.0,0.2727272727272727,False,589,isEvenPositiveInt,"def isEvenPositiveInt(x):
+	if ( x != int() and x >= 0 and x % 2 == 0):
+	    return True
+	else: return False",False,9
+0.22727272727272727,7.0,1.0,1.0,1,0.4090909090909091,0.36363636363636365,0.0,0.3333333333333333,False,608,oneToN,"def oneToN(n):
+    for i in range(1, n):
+        return i
+        i += 1",True,9
+0.8867924528301887,1.0,0.5,0.5,0,0.05660377358490566,0.05660377358490566,0.0,0.38461538461538464,True,549,raiseToPower,"def raiseToPower(x, y):
+    return (x ** y)",True,9
+0.12121212121212122,3.0,0.3333333333333333,0.8333333333333334,6,0.6666666666666666,0.21212121212121213,0.0,0.35714285714285715,False,555,kthDigit,"def kthDigit(x, k):
+	return (n // (10 ** k)) % 10",False,9
+0.5230769230769231,1.0,0.5,0.5,0,0.2923076923076923,0.18461538461538463,0.3333333333333333,0.3333333333333333,False,9,helloWorld,print('Hello World!'),False,9
+0.5230769230769231,1.0,0.5,0.5,0,0.2923076923076923,0.18461538461538463,0.3333333333333333,0.3333333333333333,False,824,helloWorld,print ('Hello World!'),False,9
+0.95,1.0,0.6666666666666666,1.0,9,0.016666666666666666,0.03333333333333333,0.3333333333333333,0.3333333333333333,True,762,doubleX,"def doubleX(x):
+    return x*2",True,9
+0.7804878048780488,1.0,0.625,1.0,8,0.14634146341463414,0.07317073170731707,0.0,0.0,True,768,leftoverCandy,"def leftoverCandy(candyBars, friends):
+	return candyBars%friends",True,9
+0.875,1.0,0.5714285714285714,1.0,7,0.1,0.025,0.0,0.0,True,767,intToFloat,"def intToFloat(x):
+	return float(x)",True,9
+0.6666666666666666,1.0,0.5,1.0,6,0.1111111111111111,0.2222222222222222,0.0,0.0,True,941,overNineThousand,"def overNineThousand(powerLevel):
+	if powerLevel <= 9000:
+	    return False
+	return True",True,9
+0.8867924528301887,1.0,0.4,1.0,5,0.05660377358490566,0.05660377358490566,0.0,0.0,True,764,raiseToPower,"def raiseToPower(x,y):
+    return x**y",True,9
+0.21621621621621623,3.0,1.0,1.0,1,0.6486486486486487,0.13513513513513514,0.0,0.0,False,770,howManyEggCartons,"def howManyEggCartons(eggs):
+	return (eggs+12)//12",False,9
+0.13793103448275862,2.0,0.3333333333333333,1.0,3,0.5862068965517241,0.27586206896551724,0.0,0.16666666666666666,False,785,nearestBusStop,"def nearestBusStop(street):
+	return ((x+3)//8)*8",False,9
+0.12121212121212122,3.0,0.5,1.0,2,0.6666666666666666,0.21212121212121213,0.0,0.2857142857142857,False,772,kthDigit,"def kthDigit(x, k):
+	return x*(10**k)",False,9
+0.4864864864864865,1.0,0.5,0.5,0,0.40540540540540543,0.10810810810810811,0.0,0.375,True,766,findRoot,"def findRoot(a,b,c):
+    x = ((-b)+((b**2)-(4*a*c))**0.5)/(2*a)
+    y = ((-b)-((b**2)-(4*a*c))**0.5)/(2*a)
+    return max(x,y)",False,9
+0.5230769230769231,1.0,0.7,1.0,10,0.2923076923076923,0.18461538461538463,0.0,0.3333333333333333,False,755,helloWorld,"print('Hello','World')
+",True,9
+0.34,2.0,0.25,1.0,4,0.54,0.12,0.0,0.4,True,765,convertToDegrees,"import math
+
+def convertToDegrees(x):
+    y = x*(180/math.pi)
+    return y",False,9
+0.37037037037037035,2.0,0.6363636363636364,1.0,11,0.48148148148148145,0.14814814814814814,0.0,0.36363636363636365,True,942,hasTwoDigits,"def hasTwoDigits(x):
+    if x < 10:
+        return False
+    a = x//100
+    if a == 0:
+        return True
+    return False",True,9
